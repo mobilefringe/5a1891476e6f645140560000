@@ -37,34 +37,34 @@
             </div>
             <div class="menu-container hidden-phone">
                 <div class="menu-div">
-                    {% for menu_item in site.menu_items_array %}
-                        {% if site.secondary_locale != "" %}
-                            {% assign title =  menu_item["title_code"] | t %}
-                        {% else %}
-                            {% assign title =  menu_item["title_code"] %}
-                        {% endif %}
-                        {% assign id = menu_item["ident"] %}
-                        <div id="{{id}}" class="menu_item">
-                        <a id="{{id}}_link" href="{{menu_item['url']}}">{{title | upcase}}</a>
-                        <div id="{{id}}_underline" class="menu_underline">&nbsp;</div>
-                        </div>
-                    {% endfor %}
+                    <!--{% for menu_item in site.menu_items_array %}-->
+                    <!--    {% if site.secondary_locale != "" %}-->
+                    <!--        {% assign title =  menu_item["title_code"] | t %}-->
+                    <!--    {% else %}-->
+                    <!--        {% assign title =  menu_item["title_code"] %}-->
+                    <!--    {% endif %}-->
+                    <!--    {% assign id = menu_item["ident"] %}-->
+                    <!--    <div id="{{id}}" class="menu_item">-->
+                    <!--    <a id="{{id}}_link" href="{{menu_item['url']}}">{{title | upcase}}</a>-->
+                    <!--    <div id="{{id}}_underline" class="menu_underline">&nbsp;</div>-->
+                    <!--    </div>-->
+                    <!--{% endfor %}-->
                 </div>
             </div>
             <router-view></router-view>
             <div class="mobile-social-div visible-phone">
-                {% for social_link in site.social_links limit:6 %}
-                    <a href="{{social_link.url}}" target="_blank">
-                        <img id="{{social_link.social_type}}" class="social_link_icon" src="{{social_link.icon_image_url}}">
-                    </a>
-                {% endfor %}    
+                <!--{% for social_link in site.social_links limit:6 %}-->
+                <!--    <a href="{{social_link.url}}" target="_blank">-->
+                <!--        <img id="{{social_link.social_type}}" class="social_link_icon" src="{{social_link.icon_image_url}}">-->
+                <!--    </a>-->
+                <!--{% endfor %}    -->
             </div>
             <div class="footer-div hidden-phone" id="footer-div">
                 <div class="footer-top">
                     <span>
                        <p class="pull-left"> <a href="javascript:toggle_sitemap()">Sitemap</a> | <a href="/pages/northpark-northpark-center-official-mobile-app">Mobile App</a> | <a href="/pages/northpark-terms-of-use">Terms of Use</a> | <a href = "/pages/northpark-northpark-center-code-of-conduct">Code of Conduct </a> | <a href="/pages/northpark-privacy-policy">Privacy Policy</a> | <a href="/pages/northpark-contact-us">Contact Us</a> | <a href="/login">Admin Login</a> | <a href="http://www.mallmaverick.com" target="_blank">Powered by Mall Maverick</a>  | </p><p class="pull-right">&copy; Copyright 2015 NorthPark Partners LP</p>
                     </span>
-                        <p class="pull-left">8687 North Central Expressway Dallas TX 75225 - 214.363.7441</p>      
+                        <p class="pull-left"> {{property.address1}}8687 North Central Expressway Dallas TX 75225 - 214.363.7441</p>      
                 </div>
                 <div class="footer-bottom hidden-phone">
                     <div class="footer-bottom-title-div">&nbsp;</div>
