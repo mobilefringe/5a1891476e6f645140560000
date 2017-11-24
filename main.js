@@ -84,23 +84,23 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
         }
       },
       copyright_year() {
-                return moment().year();
-            },
-            property(){
-                return this.$store.getters.getProperty;
-            },
-            hours(){
-                var hours = 
-                _.filter(this.$store.state.results.hours, function(o) { return o.store_ids==null && o.is_holiday==0 })
-                console.log(hours);
-                return hours;
-            },
-            todays_hours () {
-                return this.$store.getters.getTodayHours;
-            },
-            timezone () {
-                return this.$store.getters.getTimezone;
-            },
+            return moment().year();
+        },
+        property(){
+            return this.$store.getters.getProperty;
+        },
+        hours(){
+            var hours = 
+            _.filter(this.$store.state.results.hours, function(o) { return o.store_ids==null && o.is_holiday==0 })
+            console.log(hours);
+            return hours;
+        },
+        todays_hours () {
+            return this.$store.getters.getTodayHours;
+        },
+        timezone () {
+            return this.$store.getters.getTimezone;
+        },
     },
     methods: {
       // utility method to allow user to change locale value
