@@ -487,6 +487,41 @@ color:#e73243;
     font-family:helvetica, Arial, sans-serif;
     color:#6b6c70;
 }
+/***** Social Links ******/
+.social_link_box{
+    padding: 0 25px 9px 0;
+    background-size:100% 100%;
+    margin: auto 5px;
+}
+.facebook_link {
+    
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521517000/fb.png");
+    
+}
+.twitter_link {
+    // padding: 0 25px 9px 0;
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521508000/twitter.png");
+    // background-size:100% 100%;
+    //     margin: auto 10px;
+}
+.instagram_link {
+    // padding: 0 25px 9px 0;
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521550000/insta.png");
+    // background-size:100% 100%;
+    //     margin: auto 10px;
+}
+.gplus_link {
+    // padding: 0 25px 9px 0;
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521624000/g_plus.png");
+    // background-size:100% 100%;
+    //     margin: auto 10px;
+}
+.pinterest_link {
+    // padding: 0 25px 9px 0;
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521497000/Pintrest.png");
+    // background-size:100% 100%;
+    //     margin: auto 10px;
+}
 /***********************************/
 /********** INSIDE PAGE CSS ********/
 .submenu_item{
