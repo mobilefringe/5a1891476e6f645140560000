@@ -10,51 +10,51 @@
     <body>
         <div id="app" v-cloak v-if="dataLoaded">
             <div class="header-container hidden-phone" id="top">
-    <div class="header">
-        <a href="/"><img class="site-logo" src={{site.logo_image_path}}></a>
-        <div class="social-div">
-            <a href="/pages/northpark-contact-us" style="font-size:12px; margin-right:10px; color:#999999">CONTACT US</a>
-            {% for social_link in site.social_links limit:6 %}
-                <a href="{{social_link.url}}" target="_blank">
-                    <img id="{{social_link.social_type}}" class="social_link_icon" src="{{social_link.icon_image_url}}">
-                </a>
-            {% endfor %}
-        </div>
-        <div class="newsletter-div">
-            <div class="newsletter_box" style="margin-bottom:5px">
-                <form style="margin:0" action="http://mobilefringe.createsend.com/t/d/s/jhithd/" method="post">
-                    <div class="input_box">
-                    <input class="sub_input_text" id="fieldEmail" name="cm-jhithd-jhithd" type="email" required placeholder="ENTER YOUR EMAIL TO SUBSCRIBE"/>
-                    <button type="submit" style="background-color:transparent;"><img src="{{11004 | get_image_url}}"></button>
+                <div class="header">
+                    <a href="/"><img class="site-logo" src={{site.logo_image_path}}></a>
+                    <div class="social-div">
+                        <a href="/pages/northpark-contact-us" style="font-size:12px; margin-right:10px; color:#999999">CONTACT US</a>
+                        {% for social_link in site.social_links limit:6 %}
+                            <a href="{{social_link.url}}" target="_blank">
+                                <img id="{{social_link.social_type}}" class="social_link_icon" src="{{social_link.icon_image_url}}">
+                            </a>
+                        {% endfor %}
                     </div>
-                </form>                                     	
-            </div>
-            <div id="search-form" class="search-form" >                
-                <div class="input_box">
-                    <input class="sub_input_text" id="SearchTerms" placeholder="SEARCH" onkeydown="if (event.keyCode ==13) document.getElementById('search_button').click()"/>                    
-                    <button id="search_button" class="search_button" onclick="search_site();"  style="background-color:transparent;"> <img src="{{11003 | get_image_url}}"> </button>
+                    <div class="newsletter-div">
+                        <div class="newsletter_box" style="margin-bottom:5px">
+                            <form style="margin:0" action="http://mobilefringe.createsend.com/t/d/s/jhithd/" method="post">
+                                <div class="input_box">
+                                <input class="sub_input_text" id="fieldEmail" name="cm-jhithd-jhithd" type="email" required placeholder="ENTER YOUR EMAIL TO SUBSCRIBE"/>
+                                <button type="submit" style="background-color:transparent;"><img src="{{11004 | get_image_url}}"></button>
+                                </div>
+                            </form>                                     	
+                        </div>
+                        <div id="search-form" class="search-form" >                
+                            <div class="input_box">
+                                <input class="sub_input_text" id="SearchTerms" placeholder="SEARCH" onkeydown="if (event.keyCode ==13) document.getElementById('search_button').click()"/>                    
+                                <button id="search_button" class="search_button" onclick="search_site();"  style="background-color:transparent;"> <img src="{{11003 | get_image_url}}"> </button>
+                            </div>
+                            <div class="input submit"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="input submit"></div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="menu-container hidden-phone">
-    <div class="menu-div">
-        {% for menu_item in site.menu_items_array %}
-            {% if site.secondary_locale != "" %}
-                {% assign title =  menu_item["title_code"] | t %}
-            {% else %}
-                {% assign title =  menu_item["title_code"] %}
-            {% endif %}
-            {% assign id = menu_item["ident"] %}
-            <div id="{{id}}" class="menu_item">
-            <a id="{{id}}_link" href="{{menu_item['url']}}">{{title | upcase}}</a>
-            <div id="{{id}}_underline" class="menu_underline">&nbsp</div>
+            <div class="menu-container hidden-phone">
+                <div class="menu-div">
+                    {% for menu_item in site.menu_items_array %}
+                        {% if site.secondary_locale != "" %}
+                            {% assign title =  menu_item["title_code"] | t %}
+                        {% else %}
+                            {% assign title =  menu_item["title_code"] %}
+                        {% endif %}
+                        {% assign id = menu_item["ident"] %}
+                        <div id="{{id}}" class="menu_item">
+                        <a id="{{id}}_link" href="{{menu_item['url']}}">{{title | upcase}}</a>
+                        <div id="{{id}}_underline" class="menu_underline">&nbsp</div>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
-        {% endfor %}
-    </div>
-</div>
             <router-view></router-view>
             <div class="mobile-social-div visible-phone">
                 {% for social_link in site.social_links limit:6 %}
