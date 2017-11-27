@@ -36,8 +36,6 @@
 <template>
     <div class="row page_container">
         <div class="banner_div">
-        
-            
             <div class="flexslider">
                 <ul class="slides"> 
                     {% assign counter = 1 %}
