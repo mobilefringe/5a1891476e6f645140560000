@@ -39,7 +39,7 @@
             <div class="flexslider">
                 <ul class="slides"> 
                     <li id="" style="display:none" v-for="banner in banners">
-                        <a href="{{banner.url}}" class="flex-image">
+                        <a :href="banner.url" class="flex-image">
                             <img :src="banner.image_url" data-pin-no-hover="true"/>
                         </a>
                         <p class="banner-description">{{banner.description}}</p>
