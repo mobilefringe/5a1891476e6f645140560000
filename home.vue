@@ -35,10 +35,6 @@
 </style>
 <template>
     <div class="row page_container">
-   
-
-
-
         <div class="banner_div">
         
             
