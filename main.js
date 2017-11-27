@@ -71,7 +71,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
             {
                 name: "Sales & Promos",
                 id: "stores",
-                href: "/",
+                href: "/promotions",
                 parent_id: "stores_link",
                 parent_class_list: "menu_item",
                 hover_id: "stores_underline",
@@ -96,16 +96,6 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline"
             },
             
-                
-            
-            
-            <div id="dining" class="menu_item">
-            <a id="dining_link" href="/pages/northpark-dining">DINING</a>
-            <div id="dining_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
-            
-                
             
             
             <div id="sales" class="menu_item">
