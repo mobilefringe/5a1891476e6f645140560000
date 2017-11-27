@@ -87,7 +87,7 @@
                     </span>
                         <p class="pull-left"> {{property.address1}} {{property.city}}{{property.province}} {{property.postal_code}} - 214.363.7441</p>      
                 </div>
-                <div class="footer-bottom hidden-phone">
+                <div class="footer-bottom hidden-phone" v-if="toggle_sitemap">
                     <div class="footer-bottom-title-div">&nbsp;</div>
                     <div class="footer-bottom-container">
                         <!--{% for menu_item in site.menu_items_array %}                        -->
