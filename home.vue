@@ -113,34 +113,3 @@
     })
   })
 </script>
-
-<!--<script>-->
-<!--    $("#home_link").css("color","black");-->
-<!--    $(".feature-box:nth-child(-n+2)").css("margin-right","45px");-->
-<!--    $(document).ready(function() {-->
-<!--        $('.flexslider').flexslider({-->
-<!--            animation: "slide",-->
-<!--            controlNav: true,-->
-<!--            directionNav: true,        -->
-<!--            prevText: "Previous",-->
-<!--            nextText: "Next",-->
-<!--            start: function(){-->
-<!--                 $('.slides li').css("display","block"); -->
-<!--            },-->
-<!--        });-->
-      
-<!--    });-->
-    
-<!--    $(".swipe_test").on("swipe",function(){-->
-<!--      alert("success");-->
-<!--    });-->
-    
-<!--    $( ".slides li" ).hover(-->
-<!--      function() {-->
-<!--        $(this.id+"-pin").show();-->
-<!--      }, function() {-->
-<!--        $(this.id+"-pin").hide();-->
-<!--      }-->
-<!--    );-->
-    
-<!--</script>-->
