@@ -99,7 +99,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 name: "Store Hours",
                 id: "hours_link",
                 href: "/",
-                parent_id: "events",
+                parent_id: "hours",
                 parent_class_list: "menu_item",
                 hover_id: "events_underline",
                 hover_class_list:"menu_underline"
