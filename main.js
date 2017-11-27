@@ -90,7 +90,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 name: "Careers",
                 id: "jobs_link",
                 href: "/",
-                parent_id: "events",
+                parent_id: "jobs",
                 parent_class_list: "menu_item",
                 hover_id: "events_underline",
                 hover_class_list:"menu_underline"
