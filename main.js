@@ -77,11 +77,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 class_list: " menu_btn_label",
                 href: "/contact_us"
             }
-            <div id="stores" class="menu_item">
-            <a id="stores_link" href="/stores">SHOPS</a>
-            <div id="stores_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
+            
             
                 
             
