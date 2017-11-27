@@ -39,8 +39,8 @@
             <div class="flexslider">
                 <ul class="slides"> 
                     <li id="" style="display:none" v-for="banner in banners">
-                        <a href="{{banner_image.url}}" class="flex-image">
-                            <img src="{{banner_image.image_url}}" data-pin-no-hover="true"/>
+                        <a href="{{banner.url}}" class="flex-image">
+                            <img src="{{banner.image_url}}" data-pin-no-hover="true"/>
                         </a>
                         <p class="banner-description">{{banner_image.description}}</p>
                     </li>
