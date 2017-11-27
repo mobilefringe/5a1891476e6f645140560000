@@ -88,7 +88,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
             },
             {
                 name: "Store Directory",
-                id: "stores",
+                id: "events",
                 href: "/",
                 parent_id: "stores_link",
                 parent_class_list: "menu_item",
