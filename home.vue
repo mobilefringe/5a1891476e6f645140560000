@@ -63,18 +63,18 @@
         <div style="border-top:4px double #aea99e">
             <div class="feature-div" style="height:580px">
                 <span>
-                    {% for item in site.feature_items_array limit:3 %}
-                        <div class="feature-box">
-                            <p class="feature-title">{{item.name}}</p>
-                            <img src="{{item.feature_image_path}}" class="feature-image" />
-                            <p class="feature-html">{{item.html}}</p>
-                            <p class="feature-desc">{{item.description | truncate: 100}}</p>
-                            <span><a href="{{item.url}}" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src={{3573 | get_image_url}} class="pull-left"/></a></span>
-                            {% if @can_edit == "true" %}
-                                <a href="/feature_items/{{item.id}}/edit" class="btn btn-primary pull-right">Edit</a>
-                            {% endif %} 
-                        </div>
-                    {% endfor %}
+                    <!--{% for item in site.feature_items_array limit:3 %}-->
+                    <!--    <div class="feature-box">-->
+                    <!--        <p class="feature-title">{{item.name}}</p>-->
+                    <!--        <img src="{{item.feature_image_path}}" class="feature-image" />-->
+                    <!--        <p class="feature-html">{{item.html}}</p>-->
+                    <!--        <p class="feature-desc">{{item.description | truncate: 100}}</p>-->
+                    <!--        <span><a href="{{item.url}}" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src={{3573 | get_image_url}} class="pull-left"/></a></span>-->
+                    <!--        {% if @can_edit == "true" %}-->
+                    <!--            <a href="/feature_items/{{item.id}}/edit" class="btn btn-primary pull-right">Edit</a>-->
+                    <!--        {% endif %} -->
+                    <!--    </div>-->
+                    <!--{% endfor %}-->
                 </span>
             </div>
         </div>
