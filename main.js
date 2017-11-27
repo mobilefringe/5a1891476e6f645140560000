@@ -51,7 +51,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
         test: '',
         menu_items: [
             {
-                name: "Stores",
+                name: "Home",
                 id: "stores",
                 class_list: " menu_btn_label",
                 href: "/stores"
