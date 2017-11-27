@@ -101,9 +101,9 @@
           return this.$store.getters.processedStores;
         },
         banners () {
-                console.log(this.$store.state.results.banners);
-                return this.$store.state.results.banners;
-            }
+            console.log(this.$store.state.results.banners);
+            return this.$store.state.results.banners;
+        }
       },
       methods: {
         onOptionSelect(option) {
