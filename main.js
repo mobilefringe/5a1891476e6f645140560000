@@ -20,7 +20,7 @@ require.config({
     'vue-moment': 'https://mmvue.codecloudapp.com/vue-moment',
     'today_hours': 'https://mmvue.codecloudapp.com/today_hours.vue?noext', //append a dummy query string so requireJS doesn't auto-append .js to the end of the url
     'search-component': 'https://mmvue.codecloudapp.com/search-component.vue?noext',
-    'slick' : '//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000//1511822691757/slickCarousel.vue'
+    'slick' : '//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000//1511822691757/slickCarousel.vue?noext'
   }
 });
 
