@@ -54,7 +54,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 name: "Home",
                 id: "stores",
                 class_list: " menu_btn_label",
-                href: "/stores"
+                href: "/"
             },
             {
                 name: "Promotions",
@@ -74,6 +74,83 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 class_list: " menu_btn_label",
                 href: "/contact_us"
             }
+            <div id="stores" class="menu_item">
+            <a id="stores_link" href="/stores">SHOPS</a>
+            <div id="stores_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="dining" class="menu_item">
+            <a id="dining_link" href="/pages/northpark-dining">DINING</a>
+            <div id="dining_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="sales" class="menu_item">
+            <a id="sales_link" href="/promotions">SALES & PROMOTIONS</a>
+            <div id="sales_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="events" class="menu_item">
+            <a id="events_link" href="/events">EVENTS</a>
+            <div id="events_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="holiday" class="menu_item">
+            <a id="holiday_link" href="/pages/northpark-northpark-center-holiday">HOLIDAY</a>
+            <div id="holiday_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="fashion" class="menu_item">
+            <a id="fashion_link" href="/posts">FASHION</a>
+            <div id="fashion_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="arttour" class="menu_item">
+            <a id="arttour_link" href="/pages/northpark-about-the-collection">ART</a>
+            <div id="arttour_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="visit" class="menu_item">
+            <a id="visit_link" href="/pages/northpark-concierge-services">VISITOR SERVICES</a>
+            <div id="visit_underline" class="menu_underline">&nbsp</div>
+            </div>
+        
+            
+                
+            
+            
+            <div id="about" class="menu_item">
+            <a id="about_link" href="/pages/northpark-history">OUR STORY</a>
+            <div id="about_underline" class="menu_underline">&nbsp</div>
+            </div>
+
         ],
       }
     },
