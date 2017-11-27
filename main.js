@@ -54,7 +54,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 name: "Home",
                 id: "home",
                 href: "/",
-                parent_id: "stores_link",
+                parent_id: "home_link",
                 parent_class_list: "menu_item",
                 hover_id: "home_underline",
                 hover_class_list:"menu_underline"
