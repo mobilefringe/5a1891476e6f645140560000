@@ -130,7 +130,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
         // console.log(this.$store.getters.getTodayHours);
       },
       toggle_sitemap: function () {
-          console.log(toggle_sitemap);
+          console.log(this.toggle_sitemap);
       }
     },
     computed: {
