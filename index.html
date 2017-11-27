@@ -52,7 +52,7 @@
                 <div class="menu-div">
                     <div v-for="item in menu_items" class="relative menu_btns">
                         <div id="stores" class="menu_item">
-                            <router-link id="stores_link" href="/stores">SHOPS </router-link>
+                            <router-link tag="div" :to="item.href" id="stores_link" >{{name}} </router-link>
                             <div id="stores_underline" class="menu_underline">&nbsp;</div>
                         </div>
         
