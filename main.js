@@ -87,14 +87,23 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline"
             },
             {
-                name: "Store Directory",
-                id: "stores",
+                name: "Events",
+                id: "events_link",
                 href: "/",
-                parent_id: "stores_link",
+                parent_id: "events",
                 parent_class_list: "menu_item",
-                hover_id: "stores_underline",
+                hover_id: "events_underline",
                 hover_class_list:"menu_underline"
             },
+            {
+                name: "Events",
+                id: "events_link",
+                href: "/",
+                parent_id: "events",
+                parent_class_list: "menu_item",
+                hover_id: "events_underline",
+                hover_class_list:"menu_underline"
+            }
             
         
             <div id="holiday" class="menu_item">
