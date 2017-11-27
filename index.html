@@ -53,7 +53,7 @@
                     <div v-for="item in menu_items" class="relative menu_btns">
                         <div :id="item.parent_id" :class="item.parent_class_list">
                             <router-link tag="div" :to="item.href" :id="item.id" >{{item.name}} </router-link>
-                            <div id="stores_underline" class="menu_underline">&nbsp;</div>
+                            <div :id="stores_underline" class="menu_underline">&nbsp;</div>
                         </div>
         
 
