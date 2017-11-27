@@ -55,7 +55,8 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 id: "stores",
                 class_list: "menu_btn_label",
                 href: "/",
-                parent_id: "stores_link"
+                parent_id: "stores_link",
+                hover_id: "stores_underline"
             },
             {
                 name: "Promotions",
