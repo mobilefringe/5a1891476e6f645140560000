@@ -50,31 +50,31 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
         dataLoaded: false,
         test: '',
         menu_items: [
-                    {
-                        name: "Stores",
-                        id: "stores",
-                        class_list: " menu_btn_label",
-                        href: "/stores"
-                    },
-                    {
-                        name: "Promotions",
-                        id: "promotions",
-                        class_list: " menu_btn_label",
-                        href: "/promotions"
-                    },
-                    {
-                        name: "Events",
-                        id: "map",
-                        class_list: " menu_btn_label",
-                        href: "/events"
-                    },
-                    {
-                        name: "Contact Us",
-                        id: "contact_us",
-                        class_list: " menu_btn_label",
-                        href: "/contact_us"
-                    }
-                ],
+            {
+                name: "Stores",
+                id: "stores",
+                class_list: " menu_btn_label",
+                href: "/stores"
+            },
+            {
+                name: "Promotions",
+                id: "promotions",
+                class_list: " menu_btn_label",
+                href: "/promotions"
+            },
+            {
+                name: "Events",
+                id: "map",
+                class_list: " menu_btn_label",
+                href: "/events"
+            },
+            {
+                name: "Contact Us",
+                id: "contact_us",
+                class_list: " menu_btn_label",
+                href: "/contact_us"
+            }
+        ],
       }
     },
     created() {
