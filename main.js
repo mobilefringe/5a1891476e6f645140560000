@@ -96,18 +96,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline"
             },
             
-            
-            
-            
-            <div id="events" class="menu_item">
-            <a id="events_link" href="/events">EVENTS</a>
-            <div id="events_underline" class="menu_underline">&nbsp</div>
-            </div>
         
-            
-                
-            
-            
             <div id="holiday" class="menu_item">
             <a id="holiday_link" href="/pages/northpark-northpark-center-holiday">HOLIDAY</a>
             <div id="holiday_underline" class="menu_underline">&nbsp</div>
