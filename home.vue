@@ -45,7 +45,7 @@
                                 </a>
                             
                             <p class="banner-description">{{banner_image.description}}</p>
-                        {% assign counter = counter | plus:1 %}
+                    
                             
                         </li>
                     {% endfor %}
