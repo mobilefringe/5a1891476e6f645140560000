@@ -52,10 +52,10 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
         menu_items: [
             {
                 name: "Home",
-                id: "stores_link",
+                id: "stores",
                 class_list: "menu_btn_label",
                 href: "/",
-                parent_id: "stores"
+                parent_id: "stores_link"
             },
             {
                 name: "Promotions",
