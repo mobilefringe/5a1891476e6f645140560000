@@ -98,14 +98,6 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
             
             
             
-            <div id="sales" class="menu_item">
-            <a id="sales_link" href="/promotions">SALES & PROMOTIONS</a>
-            <div id="sales_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
-            
-                
-            
             
             <div id="events" class="menu_item">
             <a id="events_link" href="/events">EVENTS</a>
