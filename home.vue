@@ -99,7 +99,11 @@
         },
         processedStores() {
           return this.$store.getters.processedStores;
-        }
+        },
+        getBanners () {
+                console.log(this.$store.state.results.banners);
+                return this.$store.state.results.banners;
+            }
       },
       methods: {
         onOptionSelect(option) {
