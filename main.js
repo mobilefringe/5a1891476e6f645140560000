@@ -69,18 +69,32 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline"
             },
             {
-                name: "Events",
-                id: "map",
-                class_list: " menu_btn_label",
-                href: "/events"
+                name: "Store Directory",
+                id: "stores",
+                href: "/",
+                parent_id: "stores_link",
+                parent_class_list: "menu_item",
+                hover_id: "stores_underline",
+                hover_class_list:"menu_underline"
             },
             {
-                name: "Contact Us",
-                id: "contact_us",
-                class_list: " menu_btn_label",
-                href: "/contact_us"
-            }
-            
+                name: "Store Directory",
+                id: "stores",
+                href: "/",
+                parent_id: "stores_link",
+                parent_class_list: "menu_item",
+                hover_id: "stores_underline",
+                hover_class_list:"menu_underline"
+            },
+            {
+                name: "Store Directory",
+                id: "stores",
+                href: "/",
+                parent_id: "stores_link",
+                parent_class_list: "menu_item",
+                hover_id: "stores_underline",
+                hover_class_list:"menu_underline"
+            },
             
                 
             
