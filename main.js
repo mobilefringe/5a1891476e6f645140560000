@@ -72,7 +72,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 name: "Sales & Promos",
                 id: "stores",
                 href: "/promotions",
-                parent_id: "stores_link",
+                parent_id: "sales_link",
                 parent_class_list: "menu_item",
                 hover_id: "sales_underline",
                 hover_class_list:"menu_underline"
