@@ -78,7 +78,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline"
             },
             {
-                name: "Store Directory",
+                name: "Events",
                 id: "stores",
                 href: "/",
                 parent_id: "stores_link",
