@@ -53,7 +53,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
             {
                 name: "Home",
                 id: "stores",
-                class_list: "menu_btn_label",
+                class_list: "menu_item",
                 href: "/",
                 parent_id: "stores_link",
                 hover_id: "stores_underline"
