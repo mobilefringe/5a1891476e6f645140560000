@@ -1,38 +1,38 @@
-<style>
-    .flexslider, .slides img{
-        display:inline-block;
-        width:708px;
-        height:458px;
-    }
+/*<style>*/
+/*    .flexslider, .slides img{*/
+/*        display:inline-block;*/
+/*        width:708px;*/
+/*        height:458px;*/
+/*    }*/
     
-    .flex-control-nav{
-        bottom:5px;
+/*    .flex-control-nav{*/
+/*        bottom:5px;*/
         
-    }
+/*    }*/
     
-    .flex-control-paging li a{
-        border-radius:50%;
-        height:15px;
-        width:15px;
-    }
-    
-    
-    
-    .banner-description{
-        display:none;
-    }
+/*    .flex-control-paging li a{*/
+/*        border-radius:50%;*/
+/*        height:15px;*/
+/*        width:15px;*/
+/*    }*/
     
     
-    @media (max-width: 767px) {
-        .flexslider, .slides img {
-            display: inline-block;
-            width: 100%;
-            height:auto;
-        }
-        .flex-control-nav{
-            right:0;
-    }
-</style>
+    
+/*    .banner-description{*/
+/*        display:none;*/
+/*    }*/
+    
+    
+/*    @media (max-width: 767px) {*/
+/*        .flexslider, .slides img {*/
+/*            display: inline-block;*/
+/*            width: 100%;*/
+/*            height:auto;*/
+/*        }*/
+/*        .flex-control-nav{*/
+/*            right:0;*/
+/*    }*/
+/*</style>*/
 <template>
     <div class="row page_container">
         <div class="banner_div">
