@@ -42,7 +42,7 @@
                         <a href="{{banner.url}}" class="flex-image">
                             <img src="{{banner.image_url}}" data-pin-no-hover="true"/>
                         </a>
-                        <p class="banner-description">{{banner_image.description}}</p>
+                        <p class="banner-description">{{banner.description}}</p>
                     </li>
                 </ul>
             </div>
