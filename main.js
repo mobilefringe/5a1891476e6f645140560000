@@ -81,14 +81,14 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 name: "Events",
                 id: "stores",
                 href: "/",
-                parent_id: "stores_link",
+                parent_id: "events",
                 parent_class_list: "menu_item",
                 hover_id: "stores_underline",
                 hover_class_list:"menu_underline"
             },
             {
                 name: "Store Directory",
-                id: "events",
+                id: "stores",
                 href: "/",
                 parent_id: "stores_link",
                 parent_class_list: "menu_item",
