@@ -105,11 +105,11 @@
                     return this.$store.state.results.banners;
                 }
             },
-      methods: {
-        onOptionSelect(option) {
-          console.log('Selected option:', option)
-        }
-      }
+            methods: {
+                onOptionSelect(option) {
+                  console.log('Selected option:', option)
+                }
+            }
+        })
     })
-  })
 </script>
