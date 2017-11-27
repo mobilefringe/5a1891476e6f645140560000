@@ -88,7 +88,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
             },
             {
                 name: "Careers",
-                id: "events_link",
+                id: "jobs_link",
                 href: "/",
                 parent_id: "events",
                 parent_class_list: "menu_item",
