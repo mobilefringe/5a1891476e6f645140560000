@@ -51,13 +51,13 @@
             <div class="menu-container hidden-phone">
                 <div class="menu-div">
                     <div v-for="item in menu_items" class="relative menu_btns">
-                            <router-link tag="li" :to="item.href" active-class="active" class="menu_btn" exact>
-                                <a>
-                                    <label :class="item.class_list" @click="show_menu = !show_menu" :id="item.name">{{ item.name }}</label>
-                                </a>
-                            </router-link>
-                            <hr class="menu_hover"/>
-                        </div>
+                        <router-link tag="li" :to="item.href" active-class="active" class="menu_btn" exact>
+                            <a>
+                                <label :class="item.class_list" @click="show_menu = !show_menu" :id="item.name">{{ item.name }}</label>
+                            </a>
+                        </router-link>
+                        <hr class="menu_hover"/>
+                    </div>
                     <!--{% for menu_item in site.menu_items_array %}-->
                     <!--    {% if site.secondary_locale != "" %}-->
                     <!--        {% assign title =  menu_item["title_code"] | t %}-->
