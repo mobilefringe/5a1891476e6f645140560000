@@ -60,10 +60,13 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline"
             },
             {
-                name: "Promotions",
-                id: "promotions",
-                class_list: " menu_btn_label",
-                href: "/promotions"
+                name: "Home",
+                id: "stores",
+                href: "/",
+                parent_id: "stores_link",
+                parent_class_list: "menu_item",
+                hover_id: "stores_underline",
+                hover_class_list:"menu_underline"
             },
             {
                 name: "Events",
