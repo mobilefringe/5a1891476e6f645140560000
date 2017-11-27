@@ -38,7 +38,7 @@
         <div class="banner_div">
             <div class="flexslider">
                 <ul class="slides"> 
-                        <li id="{{counter}}" style="display:none">
+                        <li id="" style="display:none">
                                 <a href="{{banner_image.url}}" class="flex-image">
                                     <img src="{{banner_image.image_url}}" data-pin-no-hover="true"/>
                                   
