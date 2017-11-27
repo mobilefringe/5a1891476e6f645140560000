@@ -488,6 +488,9 @@ color:#e73243;
     color:#6b6c70;
 }
 /***** Social Links ******/
+.social-divs {
+        width: 100%;
+}
 .social_link_box{
     padding: 0 25px 9px 0;
     background-size:100% 100%;
