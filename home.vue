@@ -38,8 +38,6 @@
         <div class="banner_div">
             <div class="flexslider">
                 <ul class="slides"> 
-                    {% assign counter = 1 %}
-                    {% for banner_image in banner_images %}
                         <li id="{{counter}}" style="display:none">
                             {% if banner_image.url != "" %}
                                 <a href="{{banner_image.url}}" class="flex-image">
