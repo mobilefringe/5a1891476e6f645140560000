@@ -104,49 +104,6 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_id: "events_underline",
                 hover_class_list:"menu_underline"
             }
-            
-        
-            <div id="holiday" class="menu_item">
-            <a id="holiday_link" href="/pages/northpark-northpark-center-holiday">HOLIDAY</a>
-            <div id="holiday_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
-            
-                
-            
-            
-            <div id="fashion" class="menu_item">
-            <a id="fashion_link" href="/posts">FASHION</a>
-            <div id="fashion_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
-            
-                
-            
-            
-            <div id="arttour" class="menu_item">
-            <a id="arttour_link" href="/pages/northpark-about-the-collection">ART</a>
-            <div id="arttour_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
-            
-                
-            
-            
-            <div id="visit" class="menu_item">
-            <a id="visit_link" href="/pages/northpark-concierge-services">VISITOR SERVICES</a>
-            <div id="visit_underline" class="menu_underline">&nbsp</div>
-            </div>
-        
-            
-                
-            
-            
-            <div id="about" class="menu_item">
-            <a id="about_link" href="/pages/northpark-history">OUR STORY</a>
-            <div id="about_underline" class="menu_underline">&nbsp</div>
-            </div>
-
         ],
       }
     },
