@@ -494,34 +494,32 @@ color:#e73243;
     margin: auto 5px;
 }
 .facebook_link {
-    
-    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521517000/fb.png");
-    
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511797683914/facebook.png");
 }
 .twitter_link {
     // padding: 0 25px 9px 0;
-    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521508000/twitter.png");
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511797704155/twitter.png");
     // background-size:100% 100%;
     //     margin: auto 10px;
 }
 .instagram_link {
     // padding: 0 25px 9px 0;
-    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521550000/insta.png");
+    background-image: url("//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511797694182/insta.png");
     // background-size:100% 100%;
     //     margin: auto 10px;
 }
-.gplus_link {
-    // padding: 0 25px 9px 0;
-    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521624000/g_plus.png");
-    // background-size:100% 100%;
-    //     margin: auto 10px;
-}
-.pinterest_link {
-    // padding: 0 25px 9px 0;
-    background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521497000/Pintrest.png");
-    // background-size:100% 100%;
-    //     margin: auto 10px;
-}
+// .gplus_link {
+//     // padding: 0 25px 9px 0;
+//     background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521624000/g_plus.png");
+//     // background-size:100% 100%;
+//     //     margin: auto 10px;
+// }
+// .pinterest_link {
+//     // padding: 0 25px 9px 0;
+//     background-image: url("//codecloud.cdn.speedyrails.net/sites/599347d86e6f641bba820000/image/png/1503521497000/Pintrest.png");
+//     // background-size:100% 100%;
+//     //     margin: auto 10px;
+// }
 /***********************************/
 /********** INSIDE PAGE CSS ********/
 .submenu_item{
