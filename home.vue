@@ -44,10 +44,7 @@
                                     <img src="{{banner_image.image_url}}" data-pin-no-hover="true"/>
                                   
                                 </a>
-                            {% else %}
-                                <img src="{{banner_image.image_url}}" data-pin-no-hover="true" class="flex-image"/>
-                               
-                            {% endif %}
+                            
                             <p class="banner-description">{{banner_image.description}}</p>
                         {% assign counter = counter | plus:1 %}
                             
