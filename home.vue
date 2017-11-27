@@ -35,7 +35,7 @@
 </style>
 <template>
   <div class="row page_container">
-    <meta name="google-site-verification" content="r4VQ6mOTPaoCYBAa2NhA7zXrL97iqN02tOEmsQpSQkU" />
+   
 
 
 
