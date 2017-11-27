@@ -43,7 +43,6 @@
                                 <img src="{{banner_image.image_url}}" data-pin-no-hover="true"/>
                               
                             </a>
-                        
                         <p class="banner-description">{{banner_image.description}}</p>
                     </li>
                 </ul>
