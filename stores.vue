@@ -456,10 +456,9 @@
                 }
             },
             created() {
-                
+                console.log(this.allCatergories)
             },
             methods: {
-                
                 changeMode (mode) {
                   this.listMode = mode;
                 }
