@@ -40,7 +40,7 @@
                     $slick.on('lazyLoadError', this.onLazyLoadError);
                     
                     $slick.slick(this.options);
-        },
+                },
     
         destroy() {
           const $slick = $(this.$el);
