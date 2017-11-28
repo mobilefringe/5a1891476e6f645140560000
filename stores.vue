@@ -455,7 +455,11 @@
                   selected_cat : null
                 }
             },
+            created() {
+                
+            },
             methods: {
+                
                 changeMode (mode) {
                   this.listMode = mode;
                 }
