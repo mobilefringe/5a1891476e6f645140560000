@@ -15,6 +15,7 @@
                 <div class="slide" v-for="banner in banners">
                     <a :href="banner.url">
                         <img :src="banner.image_url" class="" alt="">
+                        <p class="banner-description">{{banner.description}}</p>
                     </a>
                 </div>
             </agile>
