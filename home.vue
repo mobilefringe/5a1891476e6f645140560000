@@ -85,6 +85,9 @@
                     console.log(_.orderBy(this.$store.state.results.banners, ['position'], ['asc']));
                     return _.orderBy(this.$store.state.results.banners, ['position'], ['asc']);
                 },
+                banner_features () {
+                    
+                }
                 feature_items () {
                     console.log(this.$store.state.results.feature_items);
                     return this.$store.state.results.feature_items;
