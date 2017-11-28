@@ -13,8 +13,9 @@
             <!--</div>-->
             <agile :arrows="false" :dots="true" :infinite="false">
                 <div class="slide" v-for="banner in banners">
-                    <a :href="banner.url"></a>
+                    <a :href="banner.url">
                     <img :src="banner.image_url" class="" alt="">
+                    </a>
                 </div>
             </agile>
             <div class="top_two hidden-phone">
