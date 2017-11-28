@@ -9,13 +9,13 @@
         return Vue.component("slick-slider", {
             template: template, // the variable template will be injected,
             props: {
-            options: {
-              type: Object,
-              default() {
-                return {};
-              },
+                options: {
+                  type: Object,
+                  default() {
+                    return {};
+                  },
+                },
             },
-        },
     
       mounted() {
         this.create();
