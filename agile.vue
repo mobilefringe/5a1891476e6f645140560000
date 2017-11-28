@@ -92,6 +92,7 @@
     	background-image: url("//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511801356595/site_logo.png");
     }
 </style>
+
 <script>
     define(["Vue"], function(Vue) {
         return Vue.component("agile", {
