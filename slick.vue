@@ -156,6 +156,6 @@
                     this.$emit('lazyLoadError', event, slick, image, imageSource);
                 },
             }
-    });
+        });
   });
 </script>
