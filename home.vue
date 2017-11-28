@@ -1,4 +1,26 @@
-
+<style lang="scss" type="text/scss">
+    .slide {
+        color: #fff;
+        height: 300px;
+        position: relative;
+    
+        &--1 {
+            background-color: #f1c40f;
+        }
+    
+        ...
+    
+        h3 {
+            font-size: 32px;
+            font-weight: 300;
+            left: 50%;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+</style>
 <template>
     <div class="row page_container">
         <div class="banner_div">
