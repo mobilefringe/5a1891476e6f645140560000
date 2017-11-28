@@ -35,7 +35,6 @@
                             </a>
                         </div>
                     </div>
-                    
                 </slick>
             <div class="next"></div>
             </div>
