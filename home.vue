@@ -87,7 +87,7 @@
                 },
                 banner_features () {
                     
-                }
+                },
                 feature_items () {
                     console.log(this.$store.state.results.feature_items);
                     return this.$store.state.results.feature_items;
