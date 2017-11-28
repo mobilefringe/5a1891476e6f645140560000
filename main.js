@@ -22,7 +22,7 @@ require.config({
     'search-component': 'https://mmvue.codecloudapp.com/search-component.vue?noext',
     'vue-agile' : '//preview-5a1891476e6f645140560000.codecloudapp.com/agile.vue?noext',
     'slick' : 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min',
-    'vue-slick' : '//preview-5a1891476e6f645140560000.codecloudapp.com/slick.vue?noext'
+    'vue-slick' : 'https://mmvue.codecloudapp.com/slick.vue?noext'
   }
 });
 
