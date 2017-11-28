@@ -41,7 +41,6 @@
                     
                     $slick.slick(this.options);
                 },
-    
                 destroy() {
                     const $slick = $(this.$el);
                     
