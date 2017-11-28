@@ -21,10 +21,7 @@
                 <div class="banner_features">
                     
                 </div>
-                <router-link v-for="feature in banner_features" :to="feature.url">
-                    <img class="top_image" :src='feature.image_url'/>
-                    <div class="feature_overlay">{{feature.name}}</div>
-                </router-link>
+                
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
                 <!--        <a href='{{item.url}}' ><img class="top_image" src='{{item.feature_image_path}}'/></a>-->
