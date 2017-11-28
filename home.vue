@@ -20,6 +20,7 @@
             <div class="top_two hidden-phone">
                 <router-link v-for="feature in banner_features" :to="feature.url">
                     <img class="top_image" :src='feature.image_url'/>
+                    <div></div>
                 </router-link>
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
