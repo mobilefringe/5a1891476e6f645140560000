@@ -67,9 +67,9 @@
                     suggestionAttribute: 'name',
                     search: '',
                     slickOptions: {
-                slidesToShow: 3,
-                // Any other options that can be got from plugin documentation
-            }
+                        slidesToShow: 3,
+                        // Any other options that can be got from plugin documentation
+                    }
                 }
             },
             computed: {
