@@ -155,7 +155,7 @@
                 onLazyLoadError(event, slick, image, imageSource) {
                     this.$emit('lazyLoadError', event, slick, image, imageSource);
                 },
-      }
+            }
     });
   });
 </script>
