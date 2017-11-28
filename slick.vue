@@ -83,9 +83,9 @@
                     return $(this.$el).slick('slickCurrentSlide');
                 },
     
-        add(element, index, addBefore) {
-          $(this.$el).slick('slickAdd', element, index, addBefore);
-        },
+                add(element, index, addBefore) {
+                  $(this.$el).slick('slickAdd', element, index, addBefore);
+                },
     
         remove(index, removeBefore) {
           $(this.$el).slick('slickRemove', index, removeBefore);
