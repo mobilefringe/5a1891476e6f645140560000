@@ -446,28 +446,28 @@
 </style>
 
 <script>
-  define(["Vue",'vue-select'], function(Vue, VueSelect) {
-    return Vue.component("stores-component", {
-      template: template, // the variable template will be injected
-      data: function() {
-        return {
-          listMode: "alphabetical",
-          selected_cat : null
-        }
-      },
-      methods: {
-        changeMode (mode) {
-          this.listMode = mode;
-        }
-      },
-      computed: {
-        storesByAlphaIndex() {
-          return this.$store.getters.storesByAlphaIndex;
-        },
-        storesByCategoryName() {
-          return this.$store.getters.storesByCategoryName;
-        }
-      }
+    define(["Vue",'vue-select'], function(Vue, VueSelect) {
+        return Vue.component("stores-component", {
+            template: template, // the variable template will be injected
+            data: function() {
+                return {
+                  listMode: "alphabetical",
+                  selected_cat : null
+                }
+            },
+            methods: {
+                changeMode (mode) {
+                  this.listMode = mode;
+                }
+            },
+            computed: {
+                storesByAlphaIndex() {
+                    return this.$store.getters.storesByAlphaIndex;
+                },
+                storesByCategoryName() {
+                    return this.$store.getters.storesByCategoryName;
+                }
+            }
     });
   });
 </script>
