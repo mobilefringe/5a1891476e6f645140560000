@@ -20,7 +20,7 @@ require.config({
     'vue-moment': 'https://mmvue.codecloudapp.com/vue-moment',
     'today_hours': 'https://mmvue.codecloudapp.com/today_hours.vue?noext', //append a dummy query string so requireJS doesn't auto-append .js to the end of the url
     'search-component': 'https://mmvue.codecloudapp.com/search-component.vue?noext',
-    'vue-agile' : 'https://cdn.jsdelivr.net/npm/vue-agile@0.3.6/dist/vue-agile.min'
+    'vue-agile' : 'https://cdn.jsdelivr.net/npm/vue-agile@0.3.6/src/Agile.vue?noext'
   }
 });
 
