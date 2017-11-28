@@ -14,7 +14,7 @@
             <agile :arrows="false" :dots="true" :infinite="false">
                 <div class="slide" v-for="banner in banners">
                     <a :href="banner.url"></a>
-                    <img src="//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511801356595/site_logo.png" class="" alt="">
+                    <img :src="banner.image_url" class="" alt="">
                 </div>
             </agile>
             <div class="top_two hidden-phone">
