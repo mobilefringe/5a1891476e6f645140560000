@@ -468,6 +468,6 @@
                     return this.$store.getters.storesByCategoryName;
                 }
             }
+        });
     });
-  });
 </script>
