@@ -475,7 +475,8 @@
                     return this.$store.getters.processedCategories;
                 },
                 dropDownCats () {
-                    return_.map(this.allCatergories, 'name');
+                    console.log(_.map(this.allCatergories, 'name');
+                    return _.map(this.allCatergories, 'name');
                 }
             }
         });
