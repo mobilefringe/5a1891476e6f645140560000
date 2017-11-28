@@ -24,9 +24,8 @@
             <!--    </div>-->
             <!--</agile>-->
             
-            
-            <slick ref="slick" :options="slickOptions">
             <div  class="prev"></div>
+            <slick ref="slick" :options="slickOptions">
                 <div class="" v-for="banner in banners">
                     <img :src="banner.image_url" class="" alt="">
                     <div class="banner_text">
@@ -38,8 +37,8 @@
                     
                 </div>
                 
-            <div class="next"></div>
             </slick>
+            <div class="next"></div>
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
