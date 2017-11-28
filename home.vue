@@ -19,7 +19,7 @@
             
             <div class="top_two hidden-phone">
                 <router-link v-for="feature in feature_items">
-                    <img class="top_image" src='{{item.feature_image_path}}'/>
+                    <img class="top_image" src='{{feature.feature_image_path}}'/>
                 </router-link>
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
