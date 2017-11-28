@@ -25,7 +25,7 @@
             </agile>
             
             <slick ref="slick" :options="slickOptions">
-                <div class="slide" v-for="banner in banners">
+                <div class="" v-for="banner in banners">
                     <img :src="banner.image_url" class="" alt="">
                     <div class="banner_text">
                         <p class="banner-description">{{banner.description}}</p>
