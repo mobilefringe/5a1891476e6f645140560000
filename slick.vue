@@ -60,8 +60,8 @@
                 },
     
                 reSlick() {
-                  this.destroy();
-                  this.create();
+                    this.destroy();
+                    this.create();
                 },
     
         next() {
