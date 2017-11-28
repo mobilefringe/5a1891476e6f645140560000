@@ -26,21 +26,7 @@
             <div class="main_banner">
                 
             </div>
-            <div  class="prev"></div>
-            <slick ref="slick" :options="slickOptions">
-                <div class="" v-for="banner in banners">
-                    <img :src="banner.image_url" class="" alt="">
-                    <div class="banner_text">
-                        <p class="banner-description">{{banner.description}}</p>
-                        <a :href="banner.url">
-                            <div class="banner_see_more">  See All <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></div>
-                        </a>
-                    </div>
-                    
-                </div>
-                
-            </slick>
-            <div class="next"></div>
+            
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
