@@ -8,7 +8,7 @@
 
 <script>
     define(["Vue"], function(Vue) {
-        return Vue.component("today-hours", {
+        return Vue.component("agile", {
             template: template, // the variable template will be injected,
             props: {
                 arrows: {
