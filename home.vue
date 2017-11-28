@@ -12,7 +12,7 @@
             <!--    </ul>-->
             <!--</div>-->
             <agile :arrows="false" :dots="true" :infinite="false">
-                <div class="slide">
+                <div class="slide" v-for="banner in banners">
                     <img src="//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511801356595/site_logo.png" class="" alt="">
                 </div>
             </agile>
