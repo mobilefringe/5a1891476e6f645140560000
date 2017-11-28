@@ -35,49 +35,39 @@
     	position: absolute;
     	transform: translateX(-50%);
     }
-    
     .agile__dot button {
     	background-color: transparent;
     	border: 1px solid #fff;
     }
-    
     .agile__dot button:hover {
     	background-color: #fff;
     }
-    
     .agile__dot--current button {
     	background-color: #fff;
     }
-    
     .agile__arrow {
     	height: 100%;
     	top: 0;
     	width: 80px;
     }
-    
     .agile__arrow:hover {
     	background-color: rgba(0, 0, 0, 0.5);
     }
-    
     .agile__arrow:hover #arrow-svg {
     	fill: #fff;
     }
-    
     .agile__arrow[disabled] {
     	display: none;
     }
-    
     .agile__arrow #arrow-svg {
     	fill: rgba(255, 255, 255, 0.4);
     	height: 25px;
     }
-    
     .slide {
     	background-position: center;
     	background-size: cover;
     	height: 500px;
     }
-    
     .slide:before {
     	background-color: rgba(0, 0, 0, 0.2);
     	content: '';
@@ -87,7 +77,6 @@
     	top: 0;
     	width: 100%;
     }
-    
     .slide--1 {
     	background-image: url("//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511801356595/site_logo.png");
     }
