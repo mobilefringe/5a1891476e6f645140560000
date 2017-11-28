@@ -471,7 +471,6 @@
                     return this.$store.getters.storesByCategoryName;
                 },
                 allCatergories() {
-                    console.log(this.$store.getters.processedCategories);
                     return this.$store.getters.processedCategories;
                 },
                 dropDownCats () {
