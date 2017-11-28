@@ -13,11 +13,12 @@
             <!--</div>-->
             <agile :arrows="false" :dots="true" :infinite="false">
                 <div class="slide" v-for="banner in banners">
-                    <a :href="banner.url">
+                    
                         <img :src="banner.image_url" class="" alt="">
                         <p class="banner-description">{{banner.description}}</p>
+                        <a :href="banner.url">
                         <div class="banner_see_more">  See All <i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-                    </a>
+                        </a>
                 </div>
             </agile>
             <div class="top_two hidden-phone">
