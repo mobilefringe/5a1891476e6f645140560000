@@ -62,9 +62,9 @@
                     this.create();
                 },
     
-        next() {
-          $(this.$el).slick('slickNext');
-        },
+                next() {
+                    $(this.$el).slick('slickNext');
+                },
     
         prev() {
           $(this.$el).slick('slickPrev');
