@@ -64,7 +64,7 @@
                     search: '',
                     options: {
                         arrows: false,
-                        
+                        dots : true,
                         responsive: [
                             {
                                 breakpoint: 600,
