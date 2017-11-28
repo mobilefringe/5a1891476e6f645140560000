@@ -59,7 +59,7 @@
                         arrows:true,
                         prevArrow: '.prev',
                         nextArrow: '.next',
-                        autoplay: true
+                        autoplay: false
                         // Any other options that can be got from plugin documentation
                     }
                 }
