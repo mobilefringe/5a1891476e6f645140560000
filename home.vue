@@ -18,6 +18,7 @@
             </div>
             
             <div class="top_two hidden-phone">
+                
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
                 <!--        <a href='{{item.url}}' ><img class="top_image" src='{{item.feature_image_path}}'/></a>-->
