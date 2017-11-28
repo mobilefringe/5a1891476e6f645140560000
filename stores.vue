@@ -456,7 +456,6 @@
                 }
             },
             mounted() {
-                console.log(this.allCatergories)
             },
             methods: {
                 changeMode (mode) {
