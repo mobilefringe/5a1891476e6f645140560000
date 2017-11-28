@@ -178,6 +178,5 @@
         background-image: url(../img/bg-1_1.jpg);
     }
 
-    ...
 }
 </style>
