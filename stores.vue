@@ -473,6 +473,9 @@
                 allCatergories() {
                     console.log(this.$store.getters.processedCategories);
                     return this.$store.getters.processedCategories;
+                },
+                dropDownCats () {
+                    _.map(users, 'name');
                 }
             }
         });
