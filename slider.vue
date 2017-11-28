@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    define(["Vue"], function(Vue, moment, tz, VueMoment) {
+    define(["Vue"], function(Vue) {
         return Vue.component("today-hours", {
             template: template, // the variable template will be injected,
             props: {
