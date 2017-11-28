@@ -444,7 +444,7 @@
 </style>
 
 <script>
-  define(["Vue",'vue-select'], function(Vue, vue-select) {
+  define(["Vue",'vue-select'], function(Vue, VueSelect) {
     return Vue.component("stores-component", {
       template: template, // the variable template will be injected
       data: function() {
