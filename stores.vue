@@ -466,6 +466,9 @@
                 },
                 storesByCategoryName() {
                     return this.$store.getters.storesByCategoryName;
+                },
+                allCatergories() {
+                    return this.$store.getters.processedCategories;
                 }
             }
         });
