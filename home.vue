@@ -2,16 +2,16 @@
 <template>
     <div class="row page_container">
         <div class="banner_div">
-            <div class="flexslider">
-                <ul class="slides"> 
-                    <li id="" style="display:none" v-for="banner in banners">
-                        <a :href="banner.url" class="flex-image">
-                            <img :src="banner.image_url" data-pin-no-hover="true"/>
-                        </a>
-                        <p class="banner-description">{{banner.description}}</p>
-                    </li>
-                </ul>
-            </div>
+            <!--<div class="flexslider">-->
+            <!--    <ul class="slides"> -->
+            <!--        <li id="" style="display:none" v-for="banner in banners">-->
+            <!--            <a :href="banner.url" class="flex-image">-->
+            <!--                <img :src="banner.image_url" data-pin-no-hover="true"/>-->
+            <!--            </a>-->
+            <!--            <p class="banner-description">{{banner.description}}</p>-->
+            <!--        </li>-->
+            <!--    </ul>-->
+            <!--</div>-->
             <slick ref="slick" :options="slickOptions">
               <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
               <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
