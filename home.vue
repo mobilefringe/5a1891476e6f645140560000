@@ -34,7 +34,7 @@
                         <p class="feature-title">{{item.name}}</p>
                         <img :src="item.image_url" class="feature-image" />
                         <p class="feature-html">{{item.html}}</p>
-                        <p class="feature-desc">{{item.description | truncate: 100}}</p>
+                        <p class="feature-desc">{{item.description}}</p>
                         <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
                     </div>
                 </span>
