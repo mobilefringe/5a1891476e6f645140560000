@@ -28,10 +28,6 @@
     </div>
 </template>
 
-<style lang="scss" type="text/scss">
-    
-</style>
-
 <script>
     define(["Vue"], function(Vue) {
         return Vue.component("agile", {
