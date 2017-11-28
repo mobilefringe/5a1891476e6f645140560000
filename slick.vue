@@ -71,9 +71,9 @@
                     $(this.$el).slick('slickPause');
                 },
     
-        play() {
-          $(this.$el).slick('slickPlay');
-        },
+                play() {
+                    $(this.$el).slick('slickPlay');
+                },
     
         goTo(index, dontAnimate) {
           $(this.$el).slick('slickGoTo', index, dontAnimate);
