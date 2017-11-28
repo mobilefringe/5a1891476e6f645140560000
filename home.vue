@@ -13,7 +13,7 @@
             <!--</div>-->
             <agile :arrows="false" :dots="true" :infinite="false">
                 <div class="slide slide--1"><h3>slide 1</h3></div>
-                <div class="slide slide--2"><h3>slide 2</h3></div>
+                <div class="slide slide--2"><img src="//codecloud.cdn.speedyrails.net/sites/5a1891476e6f645140560000/image/png/1511801356595/site_logo.png" class="" alt=""></div>
                 <div class="slide slide--3"><h3>slide 3</h3></div>
                 <div class="slide slide--4"><h3>slide 4</h3></div>
                 <div class="slide slide--5"><h3>slide 5</h3></div>
