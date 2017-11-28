@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </slick>
-            <div class="next"></div>
+                <div class="next"></div>
             </div>
             
             <div class="top_two hidden-phone">
