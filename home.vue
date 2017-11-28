@@ -75,7 +75,7 @@
                     suggestionAttribute: 'name',
                     search: '',
                     slickOptions: {
-                        slidesToShow: 3,
+                        slidesToShow: 1,
                         // Any other options that can be got from plugin documentation
                     }
                 }
