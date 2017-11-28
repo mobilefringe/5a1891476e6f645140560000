@@ -23,7 +23,7 @@
                     
             <!--    </div>-->
             <!--</agile>-->
-            
+            <div></div>
             <div  class="prev"></div>
             <slick ref="slick" :options="slickOptions">
                 <div class="" v-for="banner in banners">
