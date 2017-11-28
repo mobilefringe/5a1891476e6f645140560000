@@ -30,15 +30,13 @@
         <div style="border-top:4px double #aea99e">
             <div class="feature-div" style="height:580px">
                 <span>
-                    {% for item in site.feature_items_array limit:3 %}
-                        <div class="feature-box" v-for="item in feature_items">
-                            <p class="feature-title">{{item.name}}</p>
-                            <img :src="item.image_url" class="feature-image" />
-                            <p class="feature-html">{{item.html}}</p>
-                            <p class="feature-desc">{{item.description | truncate: 100}}</p>
-                            <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
-                        </div>
-                    {% endfor %}
+                    <div class="feature-box" v-for="item in feature_items">
+                        <p class="feature-title">{{item.name}}</p>
+                        <img :src="item.image_url" class="feature-image" />
+                        <p class="feature-html">{{item.html}}</p>
+                        <p class="feature-desc">{{item.description | truncate: 100}}</p>
+                        <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
+                    </div>
                 </span>
             </div>
         </div>
