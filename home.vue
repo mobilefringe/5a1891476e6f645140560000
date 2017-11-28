@@ -16,7 +16,7 @@
                     <a :href="banner.url">
                         <img :src="banner.image_url" class="" alt="">
                         <p class="banner-description">{{banner.description}}</p>
-                        <div class="banner_see_more"></div>
+                        <div class="banner_see_more">  See All</div>
                     </a>
                 </div>
             </agile>
