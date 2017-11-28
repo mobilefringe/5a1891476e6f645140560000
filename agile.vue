@@ -1,9 +1,31 @@
 <template>
-  <div class="container">
-    <h3>Shopping Hours</h3>
-    <p v-if="!hours.is_closed">{{todayDate | moment("ddd", timezone)}} {{hours.open_time | moment("LT", timezone)}} - {{hours.close_time | moment("LT", timezone)}}</p>
-    <p v-if="hours.is_closed">Closed</p>
-  </div>
+    <div class="agile"
+         :class="{'agile--fade': settings.fade && !settings.unagile, 'agile--disabled': settings.unagile}">
+        <div ref="list" class="agile__list">
+            <div ref="track" class="agile__track"
+                 :style="{width: width.track + 'px', transform: 'translate(-' + transform + 'px)', transition: 'transform ' + settings.timing + ' ' + transitionDelay + 'ms'}"
+                 @mouseover="handleMouseOver('track')" @mouseout="handleMouseOut('track')">
+                <slot></slot>
+            </div>
+        </div>
+
+        <ul ref="dots" v-if="settings.dots && !settings.unagile" class="agile__dots">
+            <li v-for="n in slidesCount" class="agile__dot"
+                :class="{'agile__dot--current': n - 1 === currentSlide}"
+                @mouseover="handleMouseOver('dot')" @mouseout="handleMouseOut('dot')">
+
+                <button @click="setSlide(n - 1)">{{n}}</button>
+            </li>
+        </ul>
+
+        <button v-if="settings.arrows && !settings.unagile" class="agile__arrow agile__arrow--prev"
+                :disabled="currentSlide === 0 && !settings.infinite" @click="prevSlide" v-html="settings.prevArrow">
+        </button>
+        <button v-if="settings.arrows && !settings.unagile" class="agile__arrow agile__arrow--next"
+                :disabled="currentSlide === slidesCount - 1 && !settings.infinite" @click="nextSlide"
+                v-html="settings.nextArrow">
+        </button>
+    </div>
 </template>
 
 <script>
