@@ -92,8 +92,8 @@
                   return this.$store.getters.processedStores;
                 },
                 banners () {
-                    console.log(this.$store.state.results.banners);
-                    return _.orderBy(this.$store.state.results.banners, ['start_date'], ['asc']);;
+                    console.log(_.orderBy(this.$store.state.results.banners, ['start_date'], ['asc']));
+                    return _.orderBy(this.$store.state.results.banners, ['start_date'], ['asc']);
                 }
             },
             methods: {
