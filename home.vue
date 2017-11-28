@@ -14,7 +14,7 @@
             <agile :arrows="false" :dots="true" :infinite="false">
                 <div class="slide" v-for="banner in banners">
                     <a :href="banner.url">
-                    <img :src="banner.image_url" class="" alt="">
+                        <img :src="banner.image_url" class="" alt="">
                     </a>
                 </div>
             </agile>
