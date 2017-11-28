@@ -12,13 +12,6 @@
             <!--        </li>-->
             <!--    </ul>-->
             <!--</div>-->
-            <Slick ref="slick" :options="slickOptions">
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-            </Slick>
             <agile>
                 <div class="slide slide--1"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
                 <div class="slide slide--2"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
