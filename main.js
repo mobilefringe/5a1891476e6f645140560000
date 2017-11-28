@@ -31,7 +31,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
   Vue.use(VueI18n);
 
   /* initialize router */
-  const router = new VueRouter({
+  const router = new VueRouter(/*
     mode: 'history',
     routes: appRoutes
   });
