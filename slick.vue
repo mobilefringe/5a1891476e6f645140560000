@@ -87,9 +87,9 @@
                     $(this.$el).slick('slickAdd', element, index, addBefore);
                 },
     
-        remove(index, removeBefore) {
-          $(this.$el).slick('slickRemove', index, removeBefore);
-        },
+                remove(index, removeBefore) {
+                    $(this.$el).slick('slickRemove', index, removeBefore);
+                },
     
         filter(filterData) {
           $(this.$el).slick('slickFilter', filterData);
