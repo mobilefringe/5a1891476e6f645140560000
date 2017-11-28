@@ -108,7 +108,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
             }
         ],
         toggle_sitemap : false,
-        show_submenu
+        show_submenu : false;
       }
     },
     created() {
