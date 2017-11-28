@@ -67,9 +67,9 @@
                 prev() {
                     $(this.$el).slick('slickPrev');
                 },
-        pause() {
-          $(this.$el).slick('slickPause');
-        },
+                pause() {
+                    $(this.$el).slick('slickPause');
+                },
     
         play() {
           $(this.$el).slick('slickPlay');
