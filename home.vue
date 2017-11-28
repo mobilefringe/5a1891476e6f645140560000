@@ -62,28 +62,28 @@
                     title: "MM with Vue.js!",
                     description: "An example of integration of Mall Maverick with Vue.js",
                     suggestionAttribute: 'name',
-                    search: ''//,
-                    // options: {
-                    //     arrows: false,
+                    search: '',
+                    options: {
+                        arrows: false,
                         
-                    //     responsive: [
-                    //         {
-                    //             breakpoint: 600,
-                    //             settings: {
-                    //                 dots: false
-                    //             }
-                    //         },
+                        responsive: [
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    dots: false
+                                }
+                            },
                             
-                    //         {
-                    //             breakpoint: 900,
-                    //             settings: {
-                    //                 arrows: true,
-                    //                 dots: true,
-                    //                 infinite: false
-                    //             }
-                    //         }
-                    //     ]
-                    // }
+                            {
+                                breakpoint: 900,
+                                settings: {
+                                    arrows: true,
+                                    dots: true,
+                                    infinite: false
+                                }
+                            }
+                        ]
+                    }
                 }
             },
             computed: {
