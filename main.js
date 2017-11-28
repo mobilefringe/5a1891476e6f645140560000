@@ -59,7 +59,9 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 parent_id: "home",
                 parent_class_list: "menu_item",
                 hover_id: "home_underline",
-                hover_class_list:"menu_underline"
+                hover_class_list:"menu_underline",
+                submenu : [
+                ]
             },
             {
                 name: "Store Directory",
