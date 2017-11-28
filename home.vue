@@ -8,9 +8,9 @@
                         <img :src="banner.image_url" class="" alt="">
                         <div class="banner_text" v-if="banner.description">
                             <p class="banner-description">{{banner.description}}</p>
-                            <a :href="banner.url">
+                            <router-link :to="banner.url">
                                 <div class="banner_see_more">  See All <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></div>
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </slick>
