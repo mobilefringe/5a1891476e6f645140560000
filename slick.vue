@@ -16,7 +16,6 @@
                   },
                 },
             },
-    
             mounted() {
                 this.create();
             },
