@@ -85,7 +85,7 @@
                 }
                 banners () {
                     console.log(this.$store.state.results.feature_items);
-                    return _.orderBy(this.$store.state.results.feature_items, ['position'], ['asc']);
+                    return this.$store.state.results.feature_items;
                 }
             },
             methods: {
