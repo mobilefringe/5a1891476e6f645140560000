@@ -28,7 +28,7 @@
     </div>
 </template>
 
-<style>
+<style lang="scss" type="text/scss">
     .agile__dots {
     	bottom: 0;
     	left: 50%;
