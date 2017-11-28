@@ -13,13 +13,13 @@
             <!--    </ul>-->
             <!--</div>-->
             <agile :infinite="false">
-    <div class="slide slide--1"><h3>slide 1</h3></div>
-    <div class="slide slide--2"><h3>slide 2</h3></div>
-    <div class="slide slide--3"><h3>slide 3</h3></div>
-    <div class="slide slide--4"><h3>slide 4</h3></div>
-    <div class="slide slide--5"><h3>slide 5</h3></div>
-    <div class="slide slide--6"><h3>slide 6</h3></div>
-</agile>
+                <div class="slide slide--1"><h3>slide 1</h3></div>
+                <div class="slide slide--2"><h3>slide 2</h3></div>
+                <div class="slide slide--3"><h3>slide 3</h3></div>
+                <div class="slide slide--4"><h3>slide 4</h3></div>
+                <div class="slide slide--5"><h3>slide 5</h3></div>
+                <div class="slide slide--6"><h3>slide 6</h3></div>
+            </agile>
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
