@@ -59,10 +59,10 @@
                     $(this.$el).slick('unslick');
                 },
     
-        reSlick() {
-          this.destroy();
-          this.create();
-        },
+                reSlick() {
+                  this.destroy();
+                  this.create();
+                },
     
         next() {
           $(this.$el).slick('slickNext');
