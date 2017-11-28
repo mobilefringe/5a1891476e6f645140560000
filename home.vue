@@ -35,7 +35,7 @@
                         <img :src="item.image_url" class="feature-image" />
                         <p class="feature-html">{{item.html}}</p>
                         <p class="feature-desc">{{item.description}}</p>
-                        <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
+                        <span class="feature_read_more"><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
                     </div>
                 </span>
             </div>
