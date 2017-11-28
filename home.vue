@@ -37,9 +37,6 @@
                             <p class="feature-html">{{item.html}}</p>
                             <p class="feature-desc">{{item.description | truncate: 100}}</p>
                             <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
-                            {% if @can_edit == "true" %}
-                                <a href="/feature_items/{{item.id}}/edit" class="btn btn-primary pull-right">Edit</a>
-                            {% endif %} 
                         </div>
                     {% endfor %}
                 </span>
