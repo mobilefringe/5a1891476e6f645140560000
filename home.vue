@@ -76,6 +76,7 @@
                     search: '',
                     slickOptions: {
                         slidesToShow: 1,
+                        dots : true
                         // Any other options that can be got from plugin documentation
                     }
                 }
