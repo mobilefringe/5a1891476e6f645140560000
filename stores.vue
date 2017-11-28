@@ -455,7 +455,7 @@
                   selected_cat : null
                 }
             },
-            created() {
+            mounted() {
                 console.log(this.allCatergories)
             },
             methods: {
