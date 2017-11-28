@@ -471,7 +471,7 @@
                     return this.$store.getters.storesByCategoryName;
                 },
                 allCatergories() {
-                    console.log();
+                    console.log(this.$store.getters.processedCategories);
                     return this.$store.getters.processedCategories;
                 }
             }
