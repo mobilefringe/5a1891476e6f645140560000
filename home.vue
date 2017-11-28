@@ -109,74 +109,74 @@
 
 <style>
     .agile {
-    &__dots {
-        bottom: 0;
-        left: 50%;
-        position: absolute;
-        transform: translateX(-50%);
-    }
-
-    &__dot {
-        button {
-            background-color: transparent;
-            border: 1px solid #fff;
-
-            &:hover {
-                background-color: #fff;
-            }
+        &__dots {
+            bottom: 0;
+            left: 50%;
+            position: absolute;
+            transform: translateX(-50%);
         }
-
-        &--current {
+    
+        &__dot {
             button {
-                background-color: #fff;
+                background-color: transparent;
+                border: 1px solid #fff;
+    
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+    
+            &--current {
+                button {
+                    background-color: #fff;
+                }
             }
         }
-    }
-
-    &__arrow {
-        height: 100%;
-        top: 0;
-        width: 80px;
-
-        &:hover {
-            background-color: rgba(#000, .5);
-
+    
+        &__arrow {
+            height: 100%;
+            top: 0;
+            width: 80px;
+    
+            &:hover {
+                background-color: rgba(#000, .5);
+    
+                #arrow-svg {
+                    fill: #fff;
+                }
+            }
+    
+            &[disabled] {
+                display: none;
+            }
+    
             #arrow-svg {
-                fill: #fff;
+                fill: rgba(#fff, .4);
+                height: 25px;
             }
         }
-
-        &[disabled] {
-            display: none;
+    }
+    
+    .slide {
+        background: {
+            position: center;
+            size: cover;
         }
-
-        #arrow-svg {
-            fill: rgba(#fff, .4);
-            height: 25px;
+        height: 500px;
+    
+        &:before {
+            background-color: rgba(#000, .2);
+            content: '';
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
         }
+    
+        &--1 {
+            background-image: url(../img/bg-1_1.jpg);
+        }
+    
     }
-}
-
-.slide {
-    background: {
-        position: center;
-        size: cover;
-    }
-    height: 500px;
-
-    &:before {
-        background-color: rgba(#000, .2);
-        content: '';
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-
-    &--1 {
-        background-image: url(../img/bg-1_1.jpg);
-    }
-
-}
 </style>
