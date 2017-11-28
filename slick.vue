@@ -19,10 +19,9 @@
             mounted() {
                 this.create();
             },
-    
-      destroyed() {
-        $(this.$el).slick('unslick');
-      },
+            destroyed() {
+                $(this.$el).slick('unslick');
+            },
     
       methods: {
         create() {
