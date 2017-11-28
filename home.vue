@@ -12,14 +12,14 @@
             <!--        </li>-->
             <!--    </ul>-->
             <!--</div>-->
-            <agile>
-                <div class="slide slide--1"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
-                <div class="slide slide--2"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
-                <div class="slide slide--3"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
-                <div class="slide slide--4"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
-                <div class="slide slide--5"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
-                <div class="slide slide--6"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
-            </agile>
+            <agile :infinite="false">
+    <div class="slide slide--1"><h3>slide 1</h3></div>
+    <div class="slide slide--2"><h3>slide 2</h3></div>
+    <div class="slide slide--3"><h3>slide 3</h3></div>
+    <div class="slide slide--4"><h3>slide 4</h3></div>
+    <div class="slide slide--5"><h3>slide 5</h3></div>
+    <div class="slide slide--6"><h3>slide 6</h3></div>
+</agile>
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
