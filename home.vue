@@ -64,26 +64,26 @@
                     suggestionAttribute: 'name',
                     search: '',
                     options: {
-            arrows: false,
-            
-            responsive: [
-                {
-                    breakpoint: 600,
-                    settings: {
-                        dots: false
+                        arrows: false,
+                        
+                        responsive: [
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    dots: false
+                                }
+                            },
+                            
+                            {
+                                breakpoint: 900,
+                                settings: {
+                                    arrows: true,
+                                    dots: true,
+                                    infinite: false
+                                }
+                            }
+                        ]
                     }
-                },
-                
-                {
-                    breakpoint: 900,
-                    settings: {
-                        arrows: true,
-                        dots: true,
-                        infinite: false
-                    }
-                }
-            ]
-        }
                 }
             },
             computed: {
