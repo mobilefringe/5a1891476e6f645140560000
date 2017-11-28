@@ -29,6 +29,72 @@
 </template>
 
 <style lang="scss" type="text/scss">
+    .agile {
+    	position: relative;
+    }
+    
+    .agile:focus, .agile:active, .agile *:focus, .agile *:active {
+    	outline: none;
+    }
+    
+    .agile__list {
+    	display: block;
+    	overflow: hidden;
+    	position: relative;
+    	width: 100%;
+    }
+    
+    .agile__track {
+    	align-items: center;
+    	display: flex;
+    	justify-content: flex-start;
+    }
+    
+    .agile--disabled .agile__track {
+    	display: block;
+    }
+    
+    .agile__slide {
+    	display: block;
+    }
+    
+    .agile--fade .agile__slide {
+    	opacity: 0;
+    	position: relative;
+    	z-index: 0;
+    }
+    
+    .agile--fade .agile__slide--active {
+    	opacity: 1;
+    	z-index: 2;
+    }
+    
+    .agile--fade .agile__slide--expiring {
+    	opacity: 1;
+    	transition-duration: 0s;
+    	z-index: 1;
+    }
+    
+    .agile__arrow[disabled] {
+    	cursor: default;
+    }
+    
+    .agile__dots {
+    	align-items: center;
+    	display: flex;
+    	list-style: none;
+    	margin: 0;
+    	padding: 0;
+    	white-space: nowrap;
+    }
+    
+    .agile__dot button {
+    	cursor: pointer;
+    	display: block;
+    	font-size: 0;
+    	line-height: 0;
+    }
+
     .agile__dots {
     	bottom: 0;
     	left: 50%;
