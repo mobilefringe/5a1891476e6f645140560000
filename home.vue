@@ -20,11 +20,12 @@
               <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
             </Slick>
             <agile>
-                <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
-              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+                <div class="slide slide--1"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
+                <div class="slide slide--2"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
+                <div class="slide slide--3"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
+                <div class="slide slide--4"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
+                <div class="slide slide--5"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
+                <div class="slide slide--6"> <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a></div>
             </agile>
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
