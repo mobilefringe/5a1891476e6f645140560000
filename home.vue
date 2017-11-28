@@ -1,28 +1,6 @@
 <template>
     <div class="row page_container">
         <div class="banner_div">
-            <!--<div class="flexslider">-->
-            <!--    <ul class="slides"> -->
-            <!--        <li id="" style="display:none" v-for="banner in banners">-->
-            <!--            <a :href="banner.url" class="flex-image">-->
-            <!--                <img :src="banner.image_url" data-pin-no-hover="true"/>-->
-            <!--            </a>-->
-            <!--            <p class="banner-description">{{banner.description}}</p>-->
-            <!--        </li>-->
-            <!--    </ul>-->
-            <!--</div>-->
-            <!--<agile :arrows="false" :dots="true" :infinite="false">-->
-            <!--    <div class="slide" v-for="banner in banners">-->
-            <!--        <img :src="banner.image_url" class="" alt="">-->
-            <!--        <div class="banner_text">-->
-            <!--            <p class="banner-description">{{banner.description}}</p>-->
-            <!--            <a :href="banner.url">-->
-            <!--                <div class="banner_see_more">  See All <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></div>-->
-            <!--            </a>-->
-            <!--        </div>-->
-                    
-            <!--    </div>-->
-            <!--</agile>-->
             <div class="main_banner">
                 <div  class="prev"></div>
                 <slick ref="slick" :options="slickOptions">
