@@ -6,7 +6,7 @@
 
 <script>
     define(["Vue"], function(Vue) {
-        return Vue.component("slick-slider", {
+        return Vue.component("slick", {
             template: template, // the variable template will be injected,
             props: {
                 options: {
