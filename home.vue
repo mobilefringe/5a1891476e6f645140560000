@@ -12,15 +12,20 @@
             <!--        </li>-->
             <!--    </ul>-->
             <!--</div>-->
+            <Slick ref="slick" :options="slickOptions">
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            </Slick>
             <agile>
-                <div class="slide slide--1"><h3>slide 1</h3></div>
-                <div class="slide slide--2"><h3>slide 2</h3></div>
-                <div class="slide slide--3"><h3>slide 3</h3></div>
-                <div class="slide slide--4"><h3>slide 4</h3></div>
-                <div class="slide slide--5"><h3>slide 5</h3></div>
-                <div class="slide slide--6"><h3>slide 6</h3></div>
+                <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
             </agile>
-            
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
                 <!--    {% if item.name == 'top_1' %}-->
