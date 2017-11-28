@@ -36,7 +36,7 @@
                             <img :src="item.image_url" class="feature-image" />
                             <p class="feature-html">{{item.html}}</p>
                             <p class="feature-desc">{{item.description | truncate: 100}}</p>
-                            <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src={{3573 | get_image_url}} class="pull-left"/></router-link></span>
+                            <span><router-link :to="item.url" class="mobile_readmore" ><p class="feature-readmore">Read More</p><img src="" class="pull-left"/></router-link></span>
                             {% if @can_edit == "true" %}
                                 <a href="/feature_items/{{item.id}}/edit" class="btn btn-primary pull-right">Edit</a>
                             {% endif %} 
