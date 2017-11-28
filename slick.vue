@@ -23,7 +23,7 @@
                 $(this.$el).slick('unslick');
             },
     
-      methods: {
+             methods: {
         create() {
           const $slick = $(this.$el);
     
