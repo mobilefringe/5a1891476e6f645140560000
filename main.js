@@ -71,7 +71,7 @@ require(['Vue', 'vue2-filters', 'vue_router', 'routes', 'store', 'vue-i18n', 'lo
                 hover_class_list:"menu_underline",
                 submenu : [
                     {
-                        id: "store_map",
+                        name: "st",
                         href: "/",
                     }
                 ]
