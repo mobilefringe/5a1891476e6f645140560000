@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    define(["Vue", "jquery"], function(Vue, $) {
+    define(["Vue", "jquery", "slick"], function(Vue, $, slick) {
         return Vue.component("slick", {
             template: template, // the variable template will be injected,
             props: {
