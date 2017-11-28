@@ -86,7 +86,7 @@
                     return _.orderBy(this.$store.state.results.banners, ['position'], ['asc']);
                 },
                 banner_features () {
-                    
+                    this.feature_items
                 },
                 feature_items () {
                     console.log(this.$store.state.results.feature_items);
