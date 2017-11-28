@@ -65,7 +65,11 @@
                     title: "MM with Vue.js!",
                     description: "An example of integration of Mall Maverick with Vue.js",
                     suggestionAttribute: 'name',
-                    search: ''
+                    search: '',
+                    slickOptions: {
+                slidesToShow: 3,
+                // Any other options that can be got from plugin documentation
+            }
                 }
             },
             computed: {
