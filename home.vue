@@ -25,6 +25,16 @@
             </agile>
             
             <slick ref="slick" :options="slickOptions">
+                <div class="slide" v-for="banner in banners">
+                    <img :src="banner.image_url" class="" alt="">
+                    <div class="banner_text">
+                        <p class="banner-description">{{banner.description}}</p>
+                        <a :href="banner.url">
+                            <div class="banner_see_more">  See All <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></div>
+                        </a>
+                    </div>
+                    
+                </div>
               <a href="http://placehold.it/700x460"><img src="http://placehold.it/700x460" alt=""></a>
               <a href="http://placehold.it/700x460"><img src="http://placehold.it/700x460" alt=""></a>
               <a href="http://placehold.it/700x460"><img src="http://placehold.it/700x460" alt=""></a>
