@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/agile.css">
 <template>
     <div class="agile"
          :class="{'agile--fade': settings.fade && !settings.unagile, 'agile--disabled': settings.unagile}">
