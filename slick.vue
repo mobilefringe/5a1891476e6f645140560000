@@ -58,7 +58,6 @@
                     $slick.off('lazyLoadError', this.onLazyLoadError);
                     $(this.$el).slick('unslick');
                 },
-    
                 reSlick() {
                     this.destroy();
                     this.create();
