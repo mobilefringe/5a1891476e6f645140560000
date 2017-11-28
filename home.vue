@@ -12,7 +12,13 @@
                     </li>
                 </ul>
             </div>
-            
+            <slick ref="slick" :options="slickOptions">
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            </slick>
             
             <div class="top_two hidden-phone">
                 <!--{% for item in site.feature_items_array %}-->
