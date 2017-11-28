@@ -11,7 +11,7 @@
             <!--        </li>-->
             <!--    </ul>-->
             <!--</div>-->
-            <agile :arrows="false" :dots="false" :infinite="false">
+            <agile :arrows="false" :dots="true" :infinite="false">
                 <div class="slide slide--1"><h3>slide 1</h3></div>
                 <div class="slide slide--2"><h3>slide 2</h3></div>
                 <div class="slide slide--3"><h3>slide 3</h3></div>
