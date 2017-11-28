@@ -17,7 +17,7 @@
                     <div class="banner_text">
                         <p class="banner-description">{{banner.description}}</p>
                         <a :href="banner.url">
-                            <div class="banner_see_more">  See All <i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                            <div class="banner_see_more">  See All <i class="fa fa-chevron-right pull-right" aria-hidden="true"></i></div>
                         </a>
                     </div>
                     
