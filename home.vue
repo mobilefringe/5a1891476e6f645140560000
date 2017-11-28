@@ -63,10 +63,27 @@
                     description: "An example of integration of Mall Maverick with Vue.js",
                     suggestionAttribute: 'name',
                     search: '',
-                    slickOptions: {
-                        slidesToShow: 3,
-                        // Any other options that can be got from plugin documentation
+                    options: {
+            arrows: false,
+            
+            responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        dots: false
                     }
+                },
+                
+                {
+                    breakpoint: 900,
+                    settings: {
+                        arrows: true,
+                        dots: true,
+                        infinite: false
+                    }
+                }
+            ]
+        }
                 }
             },
             computed: {
