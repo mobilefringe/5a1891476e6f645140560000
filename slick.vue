@@ -42,7 +42,7 @@
                     $slick.slick(this.options);
                 },
     
-        destroy() {
+                destroy() {
           const $slick = $(this.$el);
     
           $slick.off('afterChange', this.onAfterChange);
