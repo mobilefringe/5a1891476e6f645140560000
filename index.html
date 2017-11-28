@@ -57,20 +57,6 @@
                         <router-link :to="item.href" :id="item.id" class="all_caps">{{item.name}} </router-link>
                         <div :id="item.hover_id" :class="item.hover_class_list">&nbsp;</div>
                     </div>
-                   
-
-                    <!--{% for menu_item in site.menu_items_array %}-->
-                    <!--    {% if site.secondary_locale != "" %}-->
-                    <!--        {% assign title =  menu_item["title_code"] | t %}-->
-                    <!--    {% else %}-->
-                    <!--        {% assign title =  menu_item["title_code"] %}-->
-                    <!--    {% endif %}-->
-                    <!--    {% assign id = menu_item["ident"] %}-->
-                    <!--    <div id="{{id}}" class="menu_item">-->
-                    <!--    <a id="{{id}}_link" href="{{menu_item['url']}}">{{title | upcase}}</a>-->
-                    <!--    <div id="{{id}}_underline" class="menu_underline">&nbsp;</div>-->
-                    <!--    </div>-->
-                    <!--{% endfor %}-->
                 </div>
             </div>
             <router-view></router-view>
