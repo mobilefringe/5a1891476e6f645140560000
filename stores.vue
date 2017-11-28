@@ -452,7 +452,7 @@
       data: function() {
         return {
           listMode: "alphabetical",
-          selected_cat
+          selected_cat : null
         }
       },
       methods: {
