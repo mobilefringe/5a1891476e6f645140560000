@@ -25,21 +25,21 @@
     
             methods: {
                 create() {
-          const $slick = $(this.$el);
-    
-          $slick.on('afterChange', this.onAfterChange);
-          $slick.on('beforeChange', this.onBeforeChange);
-          $slick.on('breakpoint', this.onBreakpoint);
-          $slick.on('destroy', this.onDestroy);
-          $slick.on('edge', this.onEdge);
-          $slick.on('init', this.onInit);
-          $slick.on('reInit', this.onReInit);
-          $slick.on('setPosition', this.onSetPosition);
-          $slick.on('swipe', this.onSwipe);
-          $slick.on('lazyLoaded', this.onLazyLoaded);
-          $slick.on('lazyLoadError', this.onLazyLoadError);
-    
-          $slick.slick(this.options);
+                    const $slick = $(this.$el);
+                    
+                    $slick.on('afterChange', this.onAfterChange);
+                    $slick.on('beforeChange', this.onBeforeChange);
+                    $slick.on('breakpoint', this.onBreakpoint);
+                    $slick.on('destroy', this.onDestroy);
+                    $slick.on('edge', this.onEdge);
+                    $slick.on('init', this.onInit);
+                    $slick.on('reInit', this.onReInit);
+                    $slick.on('setPosition', this.onSetPosition);
+                    $slick.on('swipe', this.onSwipe);
+                    $slick.on('lazyLoaded', this.onLazyLoaded);
+                    $slick.on('lazyLoadError', this.onLazyLoadError);
+                    
+                    $slick.slick(this.options);
         },
     
         destroy() {
