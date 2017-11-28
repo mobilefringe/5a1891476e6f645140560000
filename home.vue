@@ -86,7 +86,7 @@
                     return _.orderBy(this.$store.state.results.banners, ['position'], ['asc']);
                 },
                 banner_features () {
-                    _.slice(this.$store.state.results.feature_items, [start=0], [end=array.length])
+                    _.slice(this.$store.state.results.feature_items, 0, 2)
                 },
                 feature_items () {
                     console.log(this.$store.state.results.feature_items);
