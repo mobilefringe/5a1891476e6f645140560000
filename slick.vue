@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    define(["Vue", "moment", "moment-timezone", "vue-moment"], function(Vue, moment, tz, VueMoment) {
+    define(["Vue"], function(Vue) {
         return Vue.component("slick-slider", {
             template: template, // the variable template will be injected,
             props: {
