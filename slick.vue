@@ -67,7 +67,6 @@
                 prev() {
                     $(this.$el).slick('slickPrev');
                 },
-    
         pause() {
           $(this.$el).slick('slickPause');
         },
