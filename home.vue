@@ -81,7 +81,9 @@
                     search: '',
                     slickOptions: {
                         slidesToShow: 1,
-                        dots : true
+                        dots : true,
+                        prevArrow: $('.prev'),
+                        nextArrow: $('.next'),
                         // Any other options that can be got from plugin documentation
                     }
                 }
