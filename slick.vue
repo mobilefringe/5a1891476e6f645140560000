@@ -61,7 +61,6 @@
                     this.destroy();
                     this.create();
                 },
-    
                 next() {
                     $(this.$el).slick('slickNext');
                 },
