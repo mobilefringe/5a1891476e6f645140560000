@@ -86,7 +86,7 @@
                         slidesToShow: 1,
                         dots : true,
                         arrows:true,
-                        prevArrow: $('.prev'),
+                        prevArrow: '.prev',
                         nextArrow: $('.next')
                         // Any other options that can be got from plugin documentation
                     }
