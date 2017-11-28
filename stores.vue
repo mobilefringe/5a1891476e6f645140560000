@@ -11,7 +11,7 @@
         <div class="dropdown_container hidden-phone">
             <p>SORT BY CATEGORY</p>
             <div class="category-DD-div">
-                <v-select v-model="selected" :options="['foo','bar']"></v-select>
+                <v-select v-model="selected_cat" :options="['foo','bar']"></v-select>
                 <!--<select onchange="javascript:load_cats(this.value)">-->
                 <!--    <option value="all" selected>All</option>-->
                     
