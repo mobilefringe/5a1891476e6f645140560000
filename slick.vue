@@ -23,8 +23,8 @@
                 $(this.$el).slick('unslick');
             },
     
-             methods: {
-        create() {
+            methods: {
+                create() {
           const $slick = $(this.$el);
     
           $slick.on('afterChange', this.onAfterChange);
