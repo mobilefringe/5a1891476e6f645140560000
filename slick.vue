@@ -84,7 +84,7 @@
                 },
     
                 add(element, index, addBefore) {
-                  $(this.$el).slick('slickAdd', element, index, addBefore);
+                    $(this.$el).slick('slickAdd', element, index, addBefore);
                 },
     
         remove(index, removeBefore) {
