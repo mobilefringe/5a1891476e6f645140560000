@@ -92,68 +92,68 @@
                 },
     
                 filter(filterData) {
-                  $(this.$el).slick('slickFilter', filterData);
+                    $(this.$el).slick('slickFilter', filterData);
                 },
             
                 unfilter() {
-                  $(this.$el).slick('slickUnfilter');
+                    $(this.$el).slick('slickUnfilter');
                 },
             
                 getOption(option) {
-                  $(this.$el).slick('slickGetOption', option);
+                    $(this.$el).slick('slickGetOption', option);
                 },
             
                 setOption(option, value, refresh) {
-                  $(this.$el).slick('slickSetOption', option, value, refresh);
+                    $(this.$el).slick('slickSetOption', option, value, refresh);
                 },
             
                 setPosition() {
-                  $(this.$el).slick('setPosition');
+                    $(this.$el).slick('setPosition');
                 },
             
                 // Events
                 onAfterChange(event, slick, currentSlide) {
-                  this.$emit('afterChange', event, slick, currentSlide);
+                    this.$emit('afterChange', event, slick, currentSlide);
                 },
             
                 onBeforeChange(event, slick, currentSlide, nextSlide) {
-                  this.$emit('beforeChange', event, slick, currentSlide, nextSlide);
+                    this.$emit('beforeChange', event, slick, currentSlide, nextSlide);
                 },
             
                 onBreakpoint(event, slick, breakpoint) {
-                  this.$emit('breakpoint', event, slick, breakpoint);
+                    this.$emit('breakpoint', event, slick, breakpoint);
                 },
             
                 onDestroy(event, slick) {
-                  this.$emit('destroy', event, slick);
+                    this.$emit('destroy', event, slick);
                 },
             
                 onEdge(event, slick, direction) {
-                  this.$emit('edge', event, slick, direction);
+                    this.$emit('edge', event, slick, direction);
                 },
             
                 onInit(event, slick) {
-                  this.$emit('init', event, slick);
+                    this.$emit('init', event, slick);
                 },
             
                 onReInit(event, slick) {
-                  this.$emit('reInit', event, slick);
+                    this.$emit('reInit', event, slick);
                 },
             
                 onSetPosition(event, slick) {
-                  this.$emit('setPosition', event, slick);
+                    this.$emit('setPosition', event, slick);
                 },
             
                 onSwipe(event, slick, direction) {
-                  this.$emit('swipe', event, slick, direction);
+                    this.$emit('swipe', event, slick, direction);
                 },
             
                 onLazyLoaded(event, slick, image, imageSource) {
-                  this.$emit('lazyLoaded', event, slick, image, imageSource);
+                    this.$emit('lazyLoaded', event, slick, image, imageSource);
                 },
             
                 onLazyLoadError(event, slick, image, imageSource) {
-                  this.$emit('lazyLoadError', event, slick, image, imageSource);
+                    this.$emit('lazyLoadError', event, slick, image, imageSource);
                 },
       }
     });
