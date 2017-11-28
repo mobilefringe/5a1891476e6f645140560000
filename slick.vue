@@ -17,9 +17,9 @@
                 },
             },
     
-      mounted() {
-        this.create();
-      },
+            mounted() {
+                this.create();
+            },
     
       destroyed() {
         $(this.$el).slick('unslick');
