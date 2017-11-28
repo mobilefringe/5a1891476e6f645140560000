@@ -24,15 +24,6 @@
                         <div class="feature_overlay">{{feature.name}}</div>
                     </router-link>
                 </div>
-                
-                <!--{% for item in site.feature_items_array %}-->
-                <!--    {% if item.name == 'top_1' %}-->
-                <!--        <a href='{{item.url}}' ><img class="top_image" src='{{item.feature_image_path}}'/></a>-->
-                <!--    {% endif %}-->
-                <!--    {% if item.name == 'top_2' %}-->
-                <!--        <a href='{{item.url}}' ><img class="top_image" src='{{item.feature_image_path}}'/></a>-->
-                <!--    {% endif %}-->
-                <!--{% endfor %}-->
             </div>
         </div>
         
