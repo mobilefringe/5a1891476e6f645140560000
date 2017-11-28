@@ -27,6 +27,7 @@
         </button>
     </div>
 </template>
+
 <style>
     .agile__dots {
     	bottom: 0;
