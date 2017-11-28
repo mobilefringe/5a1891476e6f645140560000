@@ -93,7 +93,7 @@
                 },
                 banners () {
                     console.log(_.orderBy(this.$store.state.results.banners, ['position'], ['desc']));
-                    return _.orderBy(this.$store.state.results.banners, ['start_date'], ['desc']);
+                    return _.orderBy(this.$store.state.results.banners, ['position'], ['desc']);
                 }
             },
             methods: {
