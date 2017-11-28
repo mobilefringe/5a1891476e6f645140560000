@@ -87,7 +87,7 @@
                         dots : true,
                         arrows:true,
                         prevArrow: '.prev',
-                        nextArrow: $('.next')
+                        nextArrow: '.next'
                         // Any other options that can be got from plugin documentation
                     }
                 }
