@@ -79,9 +79,9 @@
                     $(this.$el).slick('slickGoTo', index, dontAnimate);
                 },
     
-        currentSlide() {
-          return $(this.$el).slick('slickCurrentSlide');
-        },
+                currentSlide() {
+                    return $(this.$el).slick('slickCurrentSlide');
+                },
     
         add(element, index, addBefore) {
           $(this.$el).slick('slickAdd', element, index, addBefore);
