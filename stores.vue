@@ -8,13 +8,13 @@
                         <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
                     </div>
                 </div>
-        <div class="alphabet-dd visible-phone">
-            <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
-        </div>
-        
-        <div class="alphabet-dd visible-phone">
-            <v-select v-model="selected_alpha" :options="alphabet" class="open"></v-select>
-        </div>
+                <div class="alphabet-dd visible-phone">
+                    <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
+                </div>
+                
+                <div class="alphabet-dd visible-phone">
+                    <v-select v-model="selected_alpha" :options="alphabet" class="open"></v-select>
+                </div>
           
         <ul class="store-listing">
             <a class="hidden-anchor" id="#"></a>
