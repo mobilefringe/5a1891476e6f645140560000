@@ -24,13 +24,13 @@
             </div>
         </div>
         <div class="store-list-map-block col-md-8">
-        <div class="main-map">
-            <div id="mapsvg_store_detail"></div>
-        </div>
-        
-        <p class="store-list-map-block-label">Downloadable directories & maps</p>
-        <div class="download_dd_div">
-            <select class="download_dd" id ="download_dd">
+            <div class="main-map">
+                <div id="mapsvg_store_detail"></div>
+            </div>
+            
+            <p class="store-list-map-block-label">Downloadable directories & maps</p>
+            <div class="download_dd_div">
+                <select class="download_dd" id ="download_dd">
                  
                     
                 
