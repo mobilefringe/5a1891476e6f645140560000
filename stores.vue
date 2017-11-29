@@ -3,7 +3,7 @@
         <div class="store-list-left-block col-md-4 padding_top_20">
             <div class="store-list-container">
                 <div class="dropdown_container hidden-phone">
-                    <p class="text_left">SORT BY CATEGORY</p>
+                    <p class="text_left">Select Category</p>
                     <div class="category-DD-div">
                         <v-select v-model="selected_cat" :options="dropDownCats" :searchable="false" class="open" on-change="consoleCallback"></v-select>
                     </div>
