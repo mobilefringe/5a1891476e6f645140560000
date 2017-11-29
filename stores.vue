@@ -22,9 +22,9 @@
               </button>
               <ul class="dropdown-menu ul_dropdown" aria-labelledby="dropdownMenu1">
                 
-                            <li><a href="https://www.mallmaverick.com/system/site_images/photos/000/031/625/original/NorthPark_Center_Map_AUG17.pdf?1502307376" download="NorthPark Center Map August 2017" target="_blank" >NorthPark Center Map August 2017</a></li>
-                        
-                            <li><a href="https://www.mallmaverick.com/system/site_images/photos/000/003/967/original/WalkingMap_8-14_Online_Final.pdf?1446671651" download="Walking Map" target="_blank" >Walking Map</a></li>
+                    <li><a href="https://www.mallmaverick.com/system/site_images/photos/000/031/625/original/NorthPark_Center_Map_AUG17.pdf?1502307376" download="NorthPark Center Map August 2017" target="_blank" >NorthPark Center Map August 2017</a></li>
+                
+                    <li><a href="https://www.mallmaverick.com/system/site_images/photos/000/003/967/original/WalkingMap_8-14_Online_Final.pdf?1446671651" download="Walking Map" target="_blank" >Walking Map</a></li>
                         
                
               </ul>
