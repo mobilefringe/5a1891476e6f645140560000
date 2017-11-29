@@ -47,7 +47,7 @@
         height: 100%!important;
         padding: 15px 25px 15px 20px!important;
         background-color: #cecece!important;
-        border-color: rgba(60,60,60,.5);
+        border-color: #fff;
   }
 </style>
 
