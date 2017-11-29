@@ -1,6 +1,6 @@
 <template>
   <div class="page_container"> <!-- for some reason if you do not put an outer container div this component template will not render -->
-  <div class="store-list-left-block">
+  <div class="store-list-left-block col-md-4">
         <div class="store-list-container">
         <div class="level-div hidden-phone">
             <p>LEVEL  </p>
