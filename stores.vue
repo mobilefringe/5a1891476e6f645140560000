@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="alphabet-dd visible-phone">
-        
+        <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
             <!--<select onchange="javascript:load_cats(this.value)">-->
             <!--    <option value="" disabled selected>Select Category</option>-->
                 
