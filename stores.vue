@@ -57,7 +57,7 @@
         </div>
         
         <div class="alphabet-dd visible-phone">
-            <v-select v-model="selected_alpha" :options="alphabets" class="open"></v-select>
+            <v-select v-model="selected_alpha" :options="alphabet" class="open"></v-select>
         </div>
         <div class="mobile_download_dd visible-phone">
             <div class="dropdown">
