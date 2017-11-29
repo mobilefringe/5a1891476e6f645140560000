@@ -46,7 +46,6 @@
         top: 0!important;
         bottom: initial!important;
         height: 100%!important;
-        width: 100%!important;
         padding: 15px 25px 15px 20px!important;
         background-color: #cecece!important;
   }
