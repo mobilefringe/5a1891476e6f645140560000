@@ -9,7 +9,6 @@
     </div>
     <div class="col-md-8">
       <div>
-        <h1>{{currentStore.name}}</h1>
         <p>{{currentStore.description}}</p>
       </div>
     </div>
