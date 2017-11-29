@@ -61,6 +61,7 @@
     }
     .v-select .dropdown-toggle{
         text-align: left;
+        border-radius: initial;
     }
 </style>
 
