@@ -34,12 +34,6 @@
 </template>
 
 <style>
-  .center{
-    text-align: center
-  }
-  .store-section a{
-    color: #708090;
-  }
   .v-select .open-indicator{
         right: 0!important;
         top: 0!important;
@@ -54,7 +48,7 @@
       border-color: #fff!important;
   }
   .v-select .dropdown-menu {
-      
+
   }
 </style>
 
