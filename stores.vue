@@ -1,7 +1,6 @@
 <template>
     <div class="page_header all_caps double_border_bottom">
-        Stores Directory & Map
-        <div class="page_container"> </div>
+        <div class="page_container"> Stores Directory & Map </div>
     </div>
     <div class="page_container"> <!-- for some reason if you do not put an outer container div this component template will not render -->
         
