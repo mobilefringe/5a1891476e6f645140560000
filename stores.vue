@@ -48,7 +48,7 @@
         border-color: #fff!important;
   }
   .v-select .dropdown-menu {
-        
+      
   }
 </style>
 
