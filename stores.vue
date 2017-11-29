@@ -46,7 +46,7 @@
         bottom: initial!important;
         height: 100%!important;
         padding: 15px 25px 15px 20px!important;
-        background-color: #cecece!important;
+        background-color: #9B9B9B!important;
         border-color: #fff!important;
         color:#fff!important;
   }
