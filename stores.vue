@@ -10,50 +10,6 @@
         </div>
         <div class="alphabet-dd visible-phone">
             <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
-            <!--<select onchange="javascript:load_cats(this.value)">-->
-            <!--    <option value="" disabled selected>Select Category</option>-->
-                
-            <!--        <option value="Accessories / Handbags / Luggage  "><p>Accessories / Handbags / Luggage  </p></option>    -->
-                
-            <!--        <option value="All Stores"><p>All Stores</p></option>    -->
-                
-            <!--        <option value="Beauty / Spas / Salons / Health"><p>Beauty / Spas / Salons / Health</p></option>    -->
-                
-            <!--        <option value="Bridal"><p>Bridal</p></option>    -->
-                
-            <!--        <option value="Department Stores"><p>Department Stores</p></option>    -->
-                
-            <!--        <option value="Electronics / Home / Specialty Stores   "><p>Electronics / Home / Specialty Stores   </p></option>    -->
-                
-            <!--        <option value="Entertainment "><p>Entertainment </p></option>    -->
-                
-            <!--        <option value="Infants / Children's"><p>Infants / Children's</p></option>    -->
-                
-            <!--        <option value="Jewelry / Watches  "><p>Jewelry / Watches  </p></option>    -->
-                
-            <!--        <option value="Men's  "><p>Men's  </p></option>    -->
-                
-            <!--        <option value="NorthPark Cafés"><p>NorthPark Cafés</p></option>    -->
-                
-            <!--        <option value="NorthPark Services"><p>NorthPark Services</p></option>    -->
-                
-            <!--        <option value="Optical"><p>Optical</p></option>    -->
-                
-            <!--        <option value="Restaurants / Beverages"><p>Restaurants / Beverages</p></option>    -->
-                
-            <!--        <option value="Retailer Services"><p>Retailer Services</p></option>    -->
-                
-            <!--        <option value="Shoes  "><p>Shoes  </p></option>    -->
-                
-            <!--        <option value="Specialty Foods"><p>Specialty Foods</p></option>    -->
-                
-            <!--        <option value="The Luxury Collection"><p>The Luxury Collection</p></option>    -->
-                
-            <!--        <option value="Tweens / Teens"><p>Tweens / Teens</p></option>    -->
-                
-            <!--        <option value="Women's"><p>Women's</p></option>    -->
-                     
-            <!--</select>    -->
         </div>
         
         <div class="alphabet-dd visible-phone">
