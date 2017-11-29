@@ -1,5 +1,8 @@
 <template>
     <div class="page_container"> <!-- for some reason if you do not put an outer container div this component template will not render -->
+        <div>
+            
+        </div>
         <div class="store-list-left-block col-md-4 padding_top_20">
             <div class="store-list-container">
                 <div class="dropdown_container hidden-phone">
