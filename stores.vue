@@ -40,17 +40,17 @@
   .store-section a{
     color: #708090;
   }
-  .v-select {
+  .v-select .open_indicator{
           position: absolute;
-    right: 0;
-    top: 0;
-    cursor: pointer;
-    pointer-events: all;
-    opacity: 1;
-    height: 100%;
-    width: 100%;
-    padding: 15px 25px 15px 20px;
-    background-color: #cecece;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        pointer-events: all;
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        padding: 15px 25px 15px 20px;
+        background-color: #cecece;
   }
 </style>
 
