@@ -17,7 +17,6 @@
                 </div>
           
                 <ul class="store-listing">
-                    <a class="hidden-anchor" id="#"></a>
                         <li class="directory_header">#</li>
                         
                         <li>
