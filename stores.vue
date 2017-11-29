@@ -27,7 +27,7 @@
             <div class="main-map">
                 <div id="mapsvg_store_detail"></div>
             </div>
-    </div>
+        </div>
     <!--<ul class="menu">-->
     <!--  <li><a v-on:click="changeMode('alphabetical')">Alphabetical</a></li>-->
     <!--  <li><a v-on:click="changeMode('category')">Category</a></li>-->
