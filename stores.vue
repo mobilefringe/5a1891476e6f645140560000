@@ -23,7 +23,7 @@
                 </ul>
             </div>
         </div>
-        <div class="store-list-map-block col-md-8 padding_top_20">
+        <div class="store-list-map-block col-md-8">
             <div class="main-map">
                 <div id="mapsvg_store_detail">
                    <img src="http://placehold.it/2000x1000" alt="">
