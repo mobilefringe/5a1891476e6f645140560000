@@ -1,11 +1,7 @@
 <template>
     <div class="page_container"> <!-- for some reason if you do not put an outer container div this component template will not render -->
         <div class="page-header">
-            /* STORES DIRECTORY & M: */
-font-family: .SFNSDisplay;
-font-size: 20px;
-color: #000000;
-letter-spacing: 1.88px;
+            
         </div>
         <div class="store-list-left-block col-md-4 padding_top_20">
             <div class="store-list-container">
