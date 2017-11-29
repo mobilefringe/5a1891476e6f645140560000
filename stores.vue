@@ -60,7 +60,7 @@
         display:block;
     }
     .v-select .dropdown-toggle{
-            text-align: left;
+        text-align: left;
     }
 </style>
 
