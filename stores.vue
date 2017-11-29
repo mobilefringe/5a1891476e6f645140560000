@@ -45,9 +45,6 @@
         right: 0;
         top: 0;
         bottom: initial!important;
-        cursor: pointer;
-        pointer-events: all;
-        opacity: 1;
         height: 100%;
         width: 100%;
         padding: 15px 25px 15px 20px;
