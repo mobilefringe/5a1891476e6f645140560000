@@ -3,7 +3,7 @@
     <div class="col-md-4">
       <div>
         <h1>{{currentStore.name}}</h1>
-        <p>{{currentStore.description}}</p>
+        <p>{{currentStore.phone}}</p>
         <a v-bind:href="currentStore.website">{{currentStore.website}}</a>
       </div>
     </div>
