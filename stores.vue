@@ -51,6 +51,7 @@
         color:#fff!important;
   }
   .v-select .open-indicator:before{
+      border-color: #fff!important;
   }
 </style>
 
