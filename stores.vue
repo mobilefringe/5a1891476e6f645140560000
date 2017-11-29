@@ -227,7 +227,7 @@
                 storesByCategoryName() {
                     return this.$store.getters.storesByCategoryName;
                 },
-                processedStores() {
+                allStores() {
                   return this.$store.getters.processedStores;
                 },
                 allCatergories() {
