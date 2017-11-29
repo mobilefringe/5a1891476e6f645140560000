@@ -26,7 +26,7 @@
                          
                         <a href="tel:214.346.5914" class="visible-phone"><img class="mobile-store-phone-icon" src="https://www.mallmaverick.com/system/site_images/photos/000/005/019/original/icon_call.png?1412199299"/></a>
                         </li>
-                        </ul>
+        </ul>
         </div>
     </div>
     <div class="store-list-map-block col-md-8">
