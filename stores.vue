@@ -45,10 +45,10 @@
         color:#fff!important;
   }
   .v-select .open-indicator:before{
-      border-color: #fff!important;
+        border-color: #fff!important;
   }
   .v-select .dropdown-menu {
-
+        
   }
 </style>
 
