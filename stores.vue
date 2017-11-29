@@ -21,7 +21,7 @@
                         <a :href="'/stores/'+store.slug"><p class="directory_store_name">{{store.name}}</p></a>
                     </li>
                 </ul>
-        </div>
+            </div>
     </div>
     <div class="store-list-map-block col-md-8">
         <div class="main-map">
