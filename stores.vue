@@ -19,7 +19,7 @@
                 <ul class="store-listing">
                         <li class="directory_header">#</li>
                         
-                        <li v-for="store in all>
+                        <li v-for="store in allStores">
                         <a href="/stores/northpark-7-for-all-mankind"><p class="directory_store_name">7 For All Mankind</p></a>
                         
                          
