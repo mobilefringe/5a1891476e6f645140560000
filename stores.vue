@@ -50,6 +50,8 @@
         border-color: #fff!important;
         color:#fff!important;
   }
+  .v-select .open-indicator{
+  }
 </style>
 
 <script>
