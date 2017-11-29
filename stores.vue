@@ -59,6 +59,9 @@
         letter-spacing: 1.56px;
         display:block;
     }
+    .v-select .dropdown-toggle{
+            text-align: left;
+    }
 </style>
 
 <script>
