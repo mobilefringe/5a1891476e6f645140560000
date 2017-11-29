@@ -57,6 +57,7 @@
         font-size: 14px;
         color: #000000;
         letter-spacing: 1.56px;
+        display:block;
     }
 </style>
 
