@@ -17,8 +17,6 @@
                 </div>
           
                 <ul class="store-listing">
-                        <li class="directory_header">#</li>
-                        
                         <li v-for="store in allStores">
                             <a :href="'/stores/'+store.slug"><p class="directory_store_name">{{store.name}}</p></a>
                         </li>
