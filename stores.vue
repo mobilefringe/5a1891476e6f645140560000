@@ -5,15 +5,15 @@
                 <div class="dropdown_container hidden-phone">
                     <p class="text_left">SORT BY CATEGORY</p>
                     <div class="category-DD-div">
-                        <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
+                        <v-select v-model="selected_cat" :options="dropDownCats"></v-select>
                     </div>
                 </div>
                 <div class="alphabet-dd visible-phone">
-                    <v-select v-model="selected_cat" :options="dropDownCats" class="open"></v-select>
+                    <v-select v-model="selected_cat" :options="dropDownCats"></v-select>
                 </div>
                 
                 <div class="alphabet-dd visible-phone">
-                    <v-select v-model="selected_alpha" :options="alphabet" class="open"></v-select>
+                    <v-select v-model="selected_alpha" :options="alphabet"></v-select>
                 </div>
           
                 <ul class="store-listing">
