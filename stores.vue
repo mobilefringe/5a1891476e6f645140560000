@@ -20,7 +20,7 @@
                         <li class="directory_header">#</li>
                         
                         <li v-for="store in allStores">
-                            <a :href="'/stores/'+store.slug"><p class="directory_store_name">7 For All Mankind</p></a>
+                            <a :href="'/stores/'+store.slug"><p class="directory_store_name">{{store.name}}</p></a>
                         </li>
                 </ul>
         </div>
