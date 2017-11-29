@@ -40,7 +40,7 @@
   .store-section a{
     color: #708090;
   }
-  .v-select.open .open-indicator{
+  .v-select .open-indicator{
         position: absolute!important;
         right: 0!important;
         top: 0!important;
