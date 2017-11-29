@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="alphabet-dd visible-phone">
-                    <v-select v-model="selected_cat" :options="dropDownCats"></v-select>
+                    <v-select v-model="selected_cat" :options="dropDownCats" on-change="consoleCallback"></v-select>
                 </div>
                 
                 <div class="alphabet-dd visible-phone">
