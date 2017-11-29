@@ -27,10 +27,6 @@
             <div class="main-map">
                 <div id="mapsvg_store_detail"></div>
             </div>
-            
-            <p class="store-list-map-block-label">Downloadable directories & maps</p>
-           
-       <p class="feature-readmore" onclick="javascript:download_pdf()">Download</p><img style="margin-right:10px" src=https://www.mallmaverick.com/system/site_images/photos/000/003/573/original/arrow-btn.gif?1408990113 class="pull-left"/>    
     </div>
     <!--<ul class="menu">-->
     <!--  <li><a v-on:click="changeMode('alphabetical')">Alphabetical</a></li>-->
