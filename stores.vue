@@ -15,6 +15,8 @@
         <div class="alphabet-dd visible-phone">
             <v-select v-model="selected_alpha" :options="alphabet" class="open"></v-select>
         </div>
+          
+        
             <ul class="store-listing">
             <a class="hidden-anchor" id="#"></a>
                         <li class="directory_header">#</li>
