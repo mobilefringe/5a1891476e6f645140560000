@@ -3,9 +3,7 @@
   <div class="store-list-left-block col-md-4">
         <div class="store-list-container">
         <div class="level-div hidden-phone">
-            <p>LEVEL  </p>
-            <p class="level_num" id="level_1" style="color:white;background:#aea99e">1</p>
-            <p class="level_num" id="level_2">2</p>
+            
         </div>
         <p class="directory_title">directory</p>
         <div class="dropdown_container hidden-phone">
