@@ -41,17 +41,14 @@
     color: #708090;
   }
   .v-select .open_indicator{
-        position: absolute;
-        right: 0;
-        top: 0;
-        bottom: initial;
-        cursor: pointer;
-        pointer-events: all;
-        opacity: 1;
-        height: 100%;
-        width: 100%;
-        padding: 15px 25px 15px 20px;
-        background-color: #cecece;
+        position: absolute!imporant;
+        right: 0!imporant;
+        top: 0!imporant;
+        bottom: initial!imporant;
+        height: 100%!imporant;
+        width: 100%!imporant;
+        padding: 15px 25px 15px 20px!imporant;
+        background-color: #cecece!imporant;
   }
 </style>
 
