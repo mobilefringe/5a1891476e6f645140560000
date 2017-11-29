@@ -41,9 +41,10 @@
     color: #708090;
   }
   .v-select .open_indicator{
-          position: absolute;
+        position: absolute;
         right: 0;
         top: 0;
+        bottom: initial;
         cursor: pointer;
         pointer-events: all;
         opacity: 1;
