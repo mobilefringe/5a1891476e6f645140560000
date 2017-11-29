@@ -58,7 +58,7 @@
             },
             methods: {
                 changeMode (mode) {
-                  this.listMode = mode;
+                    this.listMode = mode;
                 },
                 consoleCallback(val) {
                     console.dir(JSON.stringify(val))
