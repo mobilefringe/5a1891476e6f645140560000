@@ -44,12 +44,12 @@
         border-color: #fff!important;
         color:#fff!important;
   }
-  .v-select .open-indicator:before{
+    .v-select .open-indicator:before{
         border-color: #fff!important;
-  }
-  .v-select .dropdown-menu {
+    }
+    .v-select .dropdown-menu {
       
-  }
+    }
 </style>
 
 <script>
