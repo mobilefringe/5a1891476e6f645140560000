@@ -23,7 +23,7 @@
                 </ul>
             </div>
         </div>
-    <div class="store-list-map-block col-md-8">
+        <div class="store-list-map-block col-md-8">
         <div class="main-map">
             <div id="mapsvg_store_detail"></div>
         </div>
