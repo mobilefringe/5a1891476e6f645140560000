@@ -16,7 +16,7 @@
                     <v-select v-model="selected_alpha" :options="alphabet"></v-select>
                 </div>
           
-                <ul class="store-listing">
+                <ul class="store-listing text_left">
                     <li v-for="store in allStores">
                         <a :href="'/stores/'+store.slug"><p class="directory_store_name">{{store.name}}</p></a>
                     </li>
