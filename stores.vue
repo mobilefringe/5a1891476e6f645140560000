@@ -19,7 +19,7 @@
                 <ul class="store-listing">
                         <li class="directory_header">#</li>
                         
-                        <li>
+                        <li v-for="store in all>
                         <a href="/stores/northpark-7-for-all-mankind"><p class="directory_store_name">7 For All Mankind</p></a>
                         
                          
@@ -226,6 +226,9 @@
                 },
                 storesByCategoryName() {
                     return this.$store.getters.storesByCategoryName;
+                },
+                processedStores() {
+                  return this.$store.getters.processedStores;
                 },
                 allCatergories() {
                     return this.$store.getters.processedCategories;
