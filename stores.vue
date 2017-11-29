@@ -47,8 +47,8 @@
         height: 100%!important;
         padding: 15px 25px 15px 20px!important;
         background-color: #cecece!important;
-        border-color: #fff;
-        color:#fff;
+        border-color: #fff!important;
+        color:#fff!important;
   }
 </style>
 
