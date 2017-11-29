@@ -48,7 +48,11 @@
         border-color: #fff!important;
     }
     .v-select .dropdown-menu {
-        
+        /* ALL: */
+        font-family: Helvetica;
+        font-size: 14px;
+        color: #000000;
+        letter-spacing: 1.56px;
     }
 </style>
 
